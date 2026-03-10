@@ -1,0 +1,79 @@
+name: Publish Resume PDFs
+
+on:
+  push:
+    branches:
+      - release
+    paths:
+      - "resumes/**/resume.md"
+      - "scripts/**"
+      - "assets/pdf/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/publish-resume-pdfs.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-resume-pdfs
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    name: Build and publish rolling release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve Chrome executable path
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "PUPPETEER_EXECUTABLE_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+          elif command -v google-chrome-stable >/dev/null 2>&1; then
+            echo "PUPPETEER_EXECUTABLE_PATH=$(command -v google-chrome-stable)" >> "$GITHUB_ENV"
+          elif command -v chromium-browser >/dev/null 2>&1; then
+            echo "PUPPETEER_EXECUTABLE_PATH=$(command -v chromium-browser)" >> "$GITHUB_ENV"
+          elif command -v chromium >/dev/null 2>&1; then
+            echo "PUPPETEER_EXECUTABLE_PATH=$(command -v chromium)" >> "$GITHUB_ENV"
+          else
+            echo "Chrome/Chromium executable was not found on this runner." >&2
+            exit 1
+          fi
+
+      - name: Build PDF files
+        run: npm run build:resume-pdfs
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: resume-pdfs
+          path: |
+            dist/resume-pdfs/*.pdf
+            dist/resume-pdfs/manifest.json
+          if-no-files-found: error
+
+      - name: Recreate rolling release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG_NAME: resume-pdfs-latest
+        run: |
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            gh release delete "$TAG_NAME" --cleanup-tag --yes
+          fi
+
+          gh release create "$TAG_NAME" dist/resume-pdfs/*.pdf \
+            --title "Resume PDFs (latest)" \
+            --notes "Auto-generated resume PDFs from commit $GITHUB_SHA on branch $GITHUB_REF_NAME." \
+            --target "$GITHUB_SHA" \
+            --latest
