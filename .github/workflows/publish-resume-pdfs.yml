@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   publish:
-    name: Build and publish rolling release
+    name: Build and publish versioned release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -54,26 +54,42 @@ jobs:
       - name: Build PDF files
         run: npm run build:resume-pdfs
 
+      - name: Compute release metadata
+        id: release_metadata
+        run: |
+          release_version="$(date -u +"%Y.%m.%d.%H.%M")"
+          short_sha="${GITHUB_SHA::7}"
+          release_tag="${release_version}-${short_sha}"
+
+          echo "release_version=$release_version" >> "$GITHUB_OUTPUT"
+          echo "release_tag=$release_tag" >> "$GITHUB_OUTPUT"
+
       - name: Upload workflow artifact
         uses: actions/upload-artifact@v6
         with:
-          name: resume-pdfs
+          name: resume-pdfs-${{ steps.release_metadata.outputs.release_tag }}
           path: |
             dist/resume-pdfs/*.pdf
             dist/resume-pdfs/manifest.json
           if-no-files-found: error
 
-      - name: Recreate rolling release
+      - name: Remove legacy rolling release
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG_NAME: resume-pdfs-latest
+          LEGACY_TAG_NAME: resume-pdfs-latest
         run: |
-          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
-            gh release delete "$TAG_NAME" --cleanup-tag --yes
+          if gh release view "$LEGACY_TAG_NAME" >/dev/null 2>&1; then
+            gh release delete "$LEGACY_TAG_NAME" --cleanup-tag --yes
           fi
 
-          gh release create "$TAG_NAME" dist/resume-pdfs/*.pdf \
-            --title "Resume PDFs (latest)" \
-            --notes "Auto-generated resume PDFs from commit $GITHUB_SHA on branch $GITHUB_REF_NAME." \
+      - name: Create versioned release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ steps.release_metadata.outputs.release_version }}
+          RELEASE_TAG: ${{ steps.release_metadata.outputs.release_tag }}
+        run: |
+          gh release create "$RELEASE_TAG" dist/resume-pdfs/*.pdf \
+            --title "$RELEASE_VERSION" \
+            --notes "Auto-generated resume PDFs version $RELEASE_VERSION from commit $GITHUB_SHA on branch $GITHUB_REF_NAME." \
             --target "$GITHUB_SHA" \
             --latest
