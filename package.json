@@ -1,0 +1,17 @@
+{
+  "name": "resume-pdf-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:resume-pdfs": "node scripts/build-resume-pdfs.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "markdown-it": "^14.1.0"
+  }
+}
