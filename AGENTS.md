@@ -5,6 +5,7 @@ This repository stores personal resume variants as canonical Markdown documents.
 ## Universal Rules
 
 - Ignore [README.md](README.md) as a source of truth.
+- [README.md](README.md) must display the current implemented resumes, and any change that adds or removes a canonical `resumes/**/resume.md` file must update that README list in the same change.
 - Refer to skills with a leading `$` prefix.
 - Treat Markdown as the only in-repo source of truth.
 - Do not create, keep, or rely on PDF resume artifacts in this repository.
