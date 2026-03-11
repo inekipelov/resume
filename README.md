@@ -7,7 +7,7 @@
 
 ## Current Resumes
 
-- 2025 iOS Developer
+- 2026 iOS Developer
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
 

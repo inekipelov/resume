@@ -41,7 +41,7 @@ PDF files are generated only in CI and published as GitHub Release assets.
 ## Stable Download Links
 
 - Use GitHub's latest-release download URLs for stable public links:
-- `https://github.com/inekipelov/resume/releases/latest/download/2025-ios-developer.pdf`
+- `https://github.com/inekipelov/resume/releases/latest/download/2026-ios-developer.pdf`
 - `https://github.com/inekipelov/resume/releases/latest/download/2026-software-engineer.pdf`
 - These URLs always resolve to the assets from the newest published release.
 

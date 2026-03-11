@@ -1,4 +1,4 @@
-# Nekipelov Roman, Senior iOS Developer
+# Nekipelov Roman, iOS Developer
 
 - Email: nekipelov.roma@gmail.com
 - Location: Remote
@@ -11,9 +11,9 @@
 
 ## Summary
 
-Senior iOS developer with 12+ years of hands-on experience building scalable, user-centric apps across iOS and the broader Apple platform ecosystem, including macOS, watchOS, iPadOS, and visionOS. Strong background in Swift, SwiftUI, Swift Concurrency, and modern Apple frameworks, with a consistent focus on clean architecture, maintainability, and reliable product delivery.
+iOS developer with 12+ years of hands-on experience building scalable, user-centric apps across iOS and the broader Apple platform ecosystem, including macOS, watchOS, iPadOS, and visionOS. Strong background in Swift, SwiftUI, Swift Concurrency, and modern Apple frameworks, with a consistent focus on clean architecture, maintainability, and reliable product delivery.
 
-Product-minded engineer with strong UX intuition, experience shipping App Store products end to end, and a track record of leading architecture decisions and mentoring developers. Comfortable working across communication, hardware integration, document capture, and workflow-heavy apps while keeping the user experience clear and the codebase stable.
+Product-minded engineer with strong UX intuition, experience shipping App Store products end to end, and a track record of leading architecture decisions and mentoring developers. Comfortable working across communication, hardware integration, document capture, and workflow-heavy apps while keeping the user experience clear, delivery predictable, and the codebase stable.
 
 ## Technical Skills
 
