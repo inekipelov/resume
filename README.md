@@ -5,14 +5,11 @@
   </p>
 </div>
 
-<p align="center">
-  <a href="https://github.com/inekipelov/resume/releases/latest/download/2025-ios-developer.pdf">
-    <img src="https://img.shields.io/badge/iOS%20Developer-2025%20PDF-111111?logo=apple&logoColor=white" alt="2025 iOS Developer PDF">
-  </a>
-  <a href="https://github.com/inekipelov/resume/releases/latest/download/2026-software-engineer.pdf">
-    <img src="https://img.shields.io/badge/Software%20Engineer-2026%20PDF-0F766E?logo=adobeacrobatreader&logoColor=white" alt="2026 Software Engineer PDF">
-  </a>
-</p>
+## Current Resumes
+
+- 2025 iOS Developer
+- 2026 Mobile Project Manager
+- 2026 Software Engineer
 
 ## Overview
 
