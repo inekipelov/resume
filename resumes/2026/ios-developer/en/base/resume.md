@@ -18,7 +18,7 @@ Product-minded engineer with strong UX intuition, experience shipping App Store 
 ## Technical Skills
 
 - **Languages**: Objective-C, C, C++, Swift, Python, JavaScript, HTML
-- **Apple Frameworks**: SwiftUI, UIKit, SwiftData, Core Data, Swift Concurrency, Combine, CoreBluetooth, ExternalAccessory, Vision, StoreKit, Foundation Models
+- **Apple Frameworks**: SwiftUI, UIKit, SwiftData, Core Data, Swift Concurrency, Combine, CoreBluetooth, ExternalAccessory, Vision, StoreKit, Foundation Models, WebKit, JavaScriptCore
 - **Third-Party / Adjacent**: RxSwift, OpenCV, LiveKit
 - **Data / Storage**: SQLite
 - **Tools**: Xcode, VS Code, Git, Sketch, Figma
@@ -59,8 +59,8 @@ Product-minded engineer with strong UX intuition, experience shipping App Store 
 - Supported integrations across 16+ devices and scanner or reader families, including hardware from Scanfob, idChamp, CipherLab, Opticon, HID, and Tertium, for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
 - **Cloud-In-Hand Mobile Order**: Enhanced a mature order-management product with Bluetooth peripheral and barcode scanner support. Delivered major UX improvements, led the post-iOS 7 redesign, and built custom UIKit components that simplified complex workflows while improving long-term maintainability.
 - **Cloud-In-Hand Mobile Grid**: Improved an established inventory product with custom-cloud sync by increasing interface clarity, performance, and workflow usability. Refined interaction logic, refreshed visual design, and built custom UIKit components for grid-oriented data handling.
-- **iScanBrowser**: Improved a mission-critical browser that integrated peripheral devices and barcode scanners into a WebView for hardware-driven workflows inside web applications. Refined navigation, delivered scanning-focused UX enhancements, and strengthened maintainability across legacy modules.
-- **SerialMagic**: Built a standalone keyboard extension that enabled barcode-scanner workflows in any app immediately after iOS 8 introduced extension APIs. Implemented complex business logic within a constrained environment and delivered reliable, fast, and predictable scanning behavior across the system.
+- **iScanBrowser**: Developed and maintained a mission-critical browser built on WebKit that integrated peripheral devices and barcode scanners into web-driven enterprise workflows. Used JavaScriptCore and JavaScript injection for DOM transformations, workflow automation, and UI augmentation while refining navigation and strengthening maintainability across legacy modules.
+- **SerialMagic Keys**: Built a standalone keyboard extension that enabled barcode-scanner workflows in any app immediately after iOS 8 introduced extension APIs. Implemented complex business logic within a constrained environment and delivered reliable, fast, and predictable scanning behavior across the system.
 - **Additional products**: Independently developed RS3 NFC Setup, Inspect RRC, and yACK FAST, focused utilities for BLE configuration and offline field workflows with end-to-end ownership across UX, implementation, and delivery.
 
 ## Education
