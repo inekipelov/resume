@@ -46,10 +46,74 @@ Senior mobile-focused software engineer, adjacent backend-facing product work, a
 - Title: iOS Developer
 - Dates: 05/2012 - 05/2020
 - Location: Cedar Park, Texas, United States - Remote
-- Held end-to-end ownership across barcode, BLE, NFC, browser, order-management, and inventory products.
+- Worked across a portfolio of enterprise iOS products used in sales, inventory, browser, inspection, and utility workflows.
+- Worked with both SVN and Git across legacy and actively evolving product codebases.
 - Supported integrations across 16+ device and scanner families for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
-- Delivered WebKit-based workflow products, JavaScript-driven integrations, custom UIKit components, and hardware-integrated mobile utilities.
-- Built and maintained focused products including Cloud-In-Hand Mobile Order, Cloud-In-Hand Mobile Grid, iScanBrowser, SerialMagic, RS3 NFC Setup, Inspect RRC, and yACK FAST.
+
+#### SerialioDeviceManager
+
+- Product Type: Internal framework
+- Technologies: Objective-C, C, Swift, ExternalAccessory, CoreBluetooth
+- Built a framework that encapsulated business logic and device-integration workflows for WiSnap, MFi, and BLE hardware used across Serialio products.
+- Designed the module both for licensed distribution and for shared reuse inside the company's product portfolio.
+- Centralized hardware behavior, protocol handling, and reusable integration patterns so multiple apps could adopt the same device layer with less duplicated code.
+
+#### Cloud-In-Hand Mobile Order
+
+- App Store: https://apps.apple.com/us/app/cloud-in-hand-mobile-order/id523530405
+- Technologies: Objective-C, C, Swift, UIKit, CoreGraphics, ExternalAccessory, CoreBluetooth
+- Worked on a mature mobile order-management product for field sales workflows with offline ordering and hardware-assisted data entry.
+- Implemented and maintained Bluetooth peripheral, barcode, and RFID scanner support across Serialio and partner hardware.
+- Delivered major UX improvements, led the post-iOS 7 redesign, and built custom UIKit components that simplified complex order-writing workflows while improving long-term maintainability.
+
+#### Cloud-In-Hand Mobile Grid
+
+- App Store: https://apps.apple.com/us/app/cloud-in-hand-mobile-grid/id373874857
+- Technologies: Objective-C, C, Swift, UIKit, CoreGraphics, ExternalAccessory, CoreBluetooth
+- Worked on a configurable grid-based mobile data-capture product used for inventory, asset tracking, inspections, attendance, and field-service workflows.
+- Improved custom-cloud sync and export-oriented workflows used to send captured data through email, FTP, SQL, XML-RPC, and file-based formats.
+- Refined interaction logic, refreshed the visual design, and built custom UIKit components for grid-oriented data entry and scanner-driven operation.
+
+#### iScanBrowser
+
+- App Store: https://apps.apple.com/us/app/iscanbrowser/id427430406
+- Technologies: Objective-C, C, Swift, UIKit, CoreGraphics, WebKit, JavaScriptCore
+- Improved a customizable browser product used to post barcode, RFID, and NFC data into web applications and web pages.
+- Worked on WebView-based workflows, JavaScript-driven integrations, scan-to-field behavior, and navigation patterns for hardware-driven browser use cases.
+- Delivered scanning-focused UX improvements, reduced user error in web-form workflows, and strengthened maintainability across legacy modules.
+
+#### SerialMagic Keys
+
+- App Store: https://apps.apple.com/us/app/serialmagic-keys/id1122825214
+- Product Type: Keyboard extension
+- Technologies: Objective-C, C, Swift, UIKit, CoreGraphics, UIInputViewController, ExternalAccessory, CoreBluetooth
+- Built and evolved keyboard-style data posting workflows that allowed wireless barcode, RFID, NFC, meter, and sensor data to flow into other iOS apps.
+- Worked in a constrained input-oriented environment to make scanner integrations reliable, fast, and predictable across diverse device types.
+- Supported workflows for inventory, asset tracking, package handling, medical, and measurement-driven applications that depended on direct data entry into third-party apps.
+
+#### RS3 NFC Setup
+
+- App Store: https://apps.apple.com/us/app/rs3-nfc-setup/id1047923529
+- Technologies: Objective-C, C, Swift, UIKit, CoreGraphics, CoreBluetooth
+- Independently developed a focused utility for configuring BLE NFC reader behavior and card-output settings.
+- Implemented setup flows for supported card types, output formatting, and reader configuration used in access-control and NFC deployment scenarios.
+- Owned the product end to end across UX, implementation, hardware integration, and delivery.
+
+#### Inspect RRC
+
+- App Store: https://apps.apple.com/us/app/inspect-rrc/id718402656
+- Technologies: Objective-C, C, Swift, UIKit, CoreGraphics, ExternalAccessory
+- Independently developed a field-inspection utility for railroad car inspection workflows.
+- Implemented RFID and barcode seal scanning flows together with structured capture of inspection points and car-content data.
+- Owned the product end to end across UX, implementation, hardware integration, and delivery.
+
+#### yACK FAST
+
+- App Store: https://apps.apple.com/us/app/yack-fast/id1166008825
+- Technologies: Objective-C, C, Swift, UIKit, CoreGraphics, CoreBluetooth, ExternalAccessory
+- Independently developed a BLE utility for BlueSnap modules, Scanfob readers, barcode scanners, and UART-connected devices.
+- Implemented module setup, terminal-style communication, sensor and scan data display, command sending, and nearby-device RSSI tooling.
+- Owned the product end to end across UX, implementation, hardware integration, and delivery.
 
 ### Freelance
 
