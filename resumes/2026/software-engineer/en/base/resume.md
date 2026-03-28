@@ -21,7 +21,7 @@ Brings a mobile-first engineering background with practical experience in Python
 ## Skills
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, CryptoKit, CallKit, PushKit
+- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit
 - Backend and APIs: FastAPI, REST APIs, WebSockets, Socket.IO, PostgreSQL, Redis, SQL, Telegram API, Firebase API
 - Realtime and Integration: VoIP/SIP, LiveKit, APNs, BLE, MFi, ExternalAccessory, CoreBluetooth
 - Quality and Delivery: Git, Gitflow, SVN, CI/CD, XCTest, Swift Testing, Playwright, Docker, Firebase Crashlytics
@@ -35,6 +35,7 @@ Brings a mobile-first engineering background with practical experience in Python
 - Dates: 09/2023 - 05/2025
 - Rebuilt a product in reset phase by introducing scalable architecture, stabilizing execution, and resolving long-standing technical debt across a unified communications iOS codebase.
 - Delivered WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time communication workflows.
+- Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
 - Supported backend-mobile integration across REST and WebSocket-based flows, including push notification delivery, APNs environment maintenance, payload validation, and end-to-end notification testing.
 - Conducted code reviews, mentored engineers, and improved delivery reliability through testing and CI/CD-oriented validation practices.
 - Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.
@@ -45,7 +46,7 @@ Brings a mobile-first engineering background with practical experience in Python
 - Dates: 06/2020 - 08/2023
 - Served as lead architect and sole iOS owner for an insurance and employee-benefits SaaS product with 7 white-label client brands.
 - Designed and delivered backend-driven UI for more than 300 dynamically rendered screens and introduced feature flags for safer rollout control and tenant-specific configuration.
-- Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit in support of mobile authentication methods and backend verification requirements.
+- Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of mobile authentication methods and backend verification requirements.
 - Partnered with backend teams on payload contracts, rollout safety, push notification payload design, APNs environment configuration, and end-to-end notification testing.
 - Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
 - Conducted code reviews, led a 5-person mobile team, and helped keep implementation quality and consistency aligned across the product.
@@ -55,6 +56,7 @@ Brings a mobile-first engineering background with practical experience in Python
 - Location: Cedar Park, Texas, United States - Remote
 - Dates: 05/2012 - 05/2020
 - Worked across enterprise mobile products that connected mobile clients to hardware peripherals, browser-based workflows, cloud-backed systems, and offline field operations.
+- Used Keychain Services in security-sensitive mobile flows across hardware-integrated iOS products.
 - Built and maintained reusable device-integration layers for WiSnap, MFi, BLE, barcode, RFID, and NFC workflows across multiple products.
 - Improved WebKit-based browser integration through iScanBrowser, including JavaScript-driven workflows and scan-to-field behavior for web applications.
 - Worked with both SVN and Git across legacy and actively evolving codebases, including local persistence workflows backed by SQLite.

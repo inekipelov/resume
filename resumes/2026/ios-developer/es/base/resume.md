@@ -21,7 +21,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 ## Habilidades
 
 - Lenguajes: Swift, Objective-C, C++, JavaScript
-- Plataformas y frameworks Apple: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, GCD
+- Plataformas y frameworks Apple: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
 - Realtime e integración: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Calidad y delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Tecnologías relacionadas: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -35,6 +35,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 - Producto: WE UC, un producto enterprise unified communications para iOS e iPadOS
 - Participé en la recuperación del producto durante una reset phase, introduciendo una arquitectura escalable para messaging, calling y real-time communication flows mientras resolvía deuda técnica acumulada.
 - Entregué WebSocket-based messaging, VoIP/SIP calling y LiveKit-powered video conferencing para escenarios de real-time unified communications.
+- Integré Face ID y Touch ID mediante LocalAuthentication y utilicé Keychain Services en mobile flows sensibles a la autenticación.
 - Implementé push notification flows, mantuve entornos APNs, validé payloads y apoyé el end-to-end notification testing entre backend y mobile.
 - Realicé code reviews, mentoré a dos desarrolladores y ayudé a mejorar engineering quality, reliability y delivery practices.
 - Reduje el tamaño de la aplicación de 400 MB a 80 MB y ayudé a avanzar el producto hacia automated test coverage, release stability y fault-tolerant operation.
@@ -48,7 +49,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 - Desempeñé los roles de lead architect, sole iOS owner, team lead y Scrum Master en un producto móvil multi-client.
 - Construí una white-labeling solution para 7 client brands y entregué backend-driven UI para más de 300 dynamically rendered screens.
 - Introduje feature flags para un rollout control más seguro y tenant-specific product configuration.
-- Implementé funcionalidad 2FA para authentication-sensitive user flows utilizando CryptoKit como herramienta criptográfica para métodos de autenticación y requisitos de backend verification.
+- Implementé funcionalidad 2FA para authentication-sensitive user flows utilizando CryptoKit, Face ID, Touch ID, LocalAuthentication y Keychain Services para métodos de autenticación y requisitos de backend verification.
 - Colaboré con equipos backend en push notification payload design, configuración de entornos APNs, rollout safety y end-to-end notification testing.
 - Desarrollé reusable C++ y OpenCV modules para document-capture workflows, incluyendo shared solutions para Android development, reduciendo el tiempo de reconocimiento relevante de documentos a 0.1 seconds.
 - Preparé design documentation, mantuve product prototypes en Sketch y Figma y elaboré materiales de App Store para release workflows.
@@ -58,6 +59,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 - Ubicación: Cedar Park, Texas, United States - Remote
 - Período: 05/2012 - 05/2020
 - Trabajé en un portfolio de productos enterprise para iOS e iPadOS utilizados en sales, inventory, browser, inspection y utility workflows.
+- Utilicé Keychain Services en mobile flows sensibles a la seguridad dentro de productos iOS con integración de hardware.
 - Soporté integraciones con más de 16 device y scanner families para clientes como Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente y Lockheed Martin.
 - Construí SerialioDeviceManager, un internal framework que encapsulaba business logic y reusable device-integration workflows para hardware WiSnap, MFi y BLE utilizado en varios productos de la compañía.
 - Mejoré y mantuve productos App Store como Cloud-In-Hand Mobile Order, Cloud-In-Hand Mobile Grid, iScanBrowser, SerialMagic Keys, RS3 NFC Setup, Inspect RRC y yACK FAST.

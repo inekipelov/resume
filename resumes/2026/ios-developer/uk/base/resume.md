@@ -21,7 +21,7 @@ iOS-розробник із глибоким досвідом створення
 ## Ключові навички
 
 - Мови: Swift, Objective-C, C++, JavaScript
-- Apple платформи та фреймворки: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, CallKit, PushKit, GCD
+- Apple платформи та фреймворки: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
 - Realtime та інтеграції: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Якість та delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Суміжні технології: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -35,6 +35,7 @@ iOS-розробник із глибоким досвідом створення
 - Продукт: WE UC, enterprise unified communications продукт для iOS та iPadOS
 - Працював над відновленням продукту в reset phase: впровадив масштабовану архітектуру для messaging, calling і real-time communication flows та скоротив накопичений технічний борг.
 - Реалізував WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing та mobile call flows з інтеграцією CallKit і PushKit для real-time unified communications сценаріїв.
+- Інтегрував Face ID і Touch ID через LocalAuthentication та використовував Keychain Services в authentication-sensitive mobile flows.
 - Реалізував push notification flows, підтримував APNs environments, валідував payloads і забезпечував end-to-end notification testing на межі backend і mobile.
 - Проводив code review, менторив двох розробників і допомагав підвищувати engineering quality, reliability та delivery practices.
 - Зменшив розмір застосунку з 400 MB до 80 MB і допоміг рухати продукт до повного automated test coverage, release stability та fault-tolerant operation.
@@ -48,7 +49,7 @@ iOS-розробник із глибоким досвідом створення
 - Виконував ролі lead architect, sole iOS owner, team lead і Scrum Master у multi-client mobile продукті.
 - Реалізував white-labeling solution для 7 client brands і backend-driven UI для понад 300 dynamically rendered screens.
 - Впровадив feature flags для безпечнішого rollout control і tenant-specific product configuration.
-- Реалізував 2FA functionality для authentication-sensitive user flows, використовуючи CryptoKit для mobile authentication methods і вимог backend verification.
+- Реалізував 2FA functionality для authentication-sensitive user flows, використовуючи CryptoKit, Face ID, Touch ID, LocalAuthentication і Keychain Services для mobile authentication methods та вимог backend verification.
 - Співпрацював із backend-командами над push notification payload design, APNs environment configuration, rollout safety та end-to-end notification testing.
 - Розробив reusable C++ та OpenCV modules для document-capture workflows, включно зі shared solutions для Android development, що зменшили час релевантного розпізнавання документів до 0.1 seconds.
 - Готував design documentation, підтримував product prototypes у Sketch і Figma та створював App Store materials для release workflows.
@@ -58,6 +59,7 @@ iOS-розробник із глибоким досвідом створення
 - Локація: Cedar Park, Texas, United States - Remote
 - Період: 05/2012 - 05/2020
 - Працював із портфелем enterprise iOS та iPadOS продуктів для sales, inventory, browser, inspection та utility workflows.
+- Використовував Keychain Services у security-sensitive mobile flows в hardware-integrated iOS продуктах.
 - Підтримував інтеграції з 16+ device і scanner families для клієнтів, серед яких Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente та Lockheed Martin.
 - Розробив SerialioDeviceManager, internal framework для business logic та reusable device-integration workflows з WiSnap, MFi і BLE hardware, який використовувався в кількох продуктах компанії.
 - Підтримував і розвивав App Store продукти Cloud-In-Hand Mobile Order, Cloud-In-Hand Mobile Grid, iScanBrowser, SerialMagic Keys, RS3 NFC Setup, Inspect RRC та yACK FAST.

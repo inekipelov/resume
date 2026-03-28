@@ -43,6 +43,7 @@ Combines technical leadership with product delivery ownership across unified com
 - Dates: 09/2023 - 05/2025
 - Took ownership during a critical reset phase when both the codebase and delivery process required rebuilding, then helped stabilize execution through scalable architecture and clearer engineering practices.
 - Coordinated delivery of messaging, VoIP/SIP calling, and LiveKit-powered video conferencing in an enterprise unified communications product for iOS and iPadOS.
+- Coordinated delivery of authentication-sensitive mobile flows, including Face ID and Touch ID integration through LocalAuthentication and secure handling with Keychain Services.
 - Supported backend and mobile alignment across REST and WebSocket-based communication flows, including push notification delivery, APNs environment maintenance, payload validation, and end-to-end notification testing.
 - Conducted code reviews, mentored two developers, and helped improve implementation quality, delivery reliability, and release stability through better validation practices.
 - Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage and fault-tolerant operation.
@@ -54,7 +55,7 @@ Combines technical leadership with product delivery ownership across unified com
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsroge, an insurance and employee-benefits SaaS mobile product later redistributed under the XEMPUS brand.
 - Led a 5-person mobile team and kept delivery, implementation quality, and technical standards aligned across the product.
 - Delivered a white-labeling solution for 7 client brands, introduced feature flags, and coordinated rollout-safe backend-driven UI for more than 300 dynamically rendered screens.
-- Delivered 2FA functionality for authentication-sensitive user flows and coordinated the related mobile and backend verification behavior.
+- Delivered 2FA functionality for authentication-sensitive user flows, including Face ID and Touch ID integration through LocalAuthentication, Keychain Services usage, and coordination of the related mobile and backend verification behavior.
 - Partnered with backend teams on payload design, push notification flows, APNs environment configuration, rollout safety, and end-to-end notification testing.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
 - Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development.
@@ -64,6 +65,7 @@ Combines technical leadership with product delivery ownership across unified com
 - Location: Cedar Park, Texas, United States - Remote
 - Dates: 05/2012 - 05/2020
 - Held broad ownership across a portfolio of enterprise iOS and iPadOS products spanning order management, inventory, browser, inspection, and utility workflows.
+- Oversaw delivery across security-sensitive mobile flows that included secure handling patterns implemented with Keychain Services.
 - Coordinated delivery across customer-specific requirements, web application integrations, hardware constraints, and 16+ device and scanner families for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
 - Drove workflow and usability improvements across App Store products including Cloud-In-Hand Mobile Order, Cloud-In-Hand Mobile Grid, iScanBrowser, SerialMagic Keys, RS3 NFC Setup, Inspect RRC, and yACK FAST.
 - Worked across legacy and evolving codebases with SVN and Git, including local persistence workflows backed by SQLite.
