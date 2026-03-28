@@ -1,85 +1,102 @@
-# Nekipelov Roman, Mobile Project Manager
+# Nekipelov Roman
+
+Mobile Technical Lead
 
 - Email: nekipelov.roma@gmail.com
+- Telegram: https://t.me/inekipelov
 - Location: Remote
 
 ## Links
 
-- [GitHub](https://github.com/inekipelov)
-- [LinkedIn](https://www.linkedin.com/in/inekipelov)
+- GitHub: https://github.com/inekipelov
+- LinkedIn: https://www.linkedin.com/in/inekipelov
+- App Store: https://apps.apple.com/us/developer/roman-nekipelov/id1841486819
 
-## Summary
+## Professional Summary
 
-Mobile Project Manager with 12+ years of experience delivering mobile products and technically complex workflow systems, backed by deep iOS engineering expertise. Strong track record of taking ownership during reset and scale-up phases, rebuilding delivery processes, stabilizing execution, and moving products toward reliable release readiness.
+Mobile technical lead with deep iOS engineering expertise and experience delivering mobile products and technically complex workflow systems. Work has included taking ownership during reset and scale-up phases, aligning engineering execution, improving architecture, and moving products toward reliable release readiness.
 
-Brings a technical leadership profile to cross-functional mobile delivery, with experience aligning engineering workflows, backend and mobile dependencies, integration requirements, and multi-client product scope. Particularly effective in mobile environments where execution depends on clear coordination across technical teams, product constraints, and operational risk.
+Combines technical leadership with product delivery ownership across unified communications, insurance, hardware-integrated mobile systems, and App Store products. Experience includes cross-functional coordination, rollout safety, backend-mobile contract alignment, code review culture, mentoring, and steady execution under technical complexity.
 
-## Core Competencies
+## Skills
 
-- Mobile Product Delivery
+- Mobile Technical Leadership
+- Architecture and Delivery Stabilization
 - Cross-Functional Team Coordination
 - Scrum Facilitation
+- Code Review and Engineering Standards
 - Release Planning and Execution
-- Stakeholder Communication
-- Requirements Translation
-- Process Stabilization
-- Technical Risk Identification and Resolution
-- Backend / Mobile Coordination
+- Backend and Mobile Contract Alignment
+- Push Notification and APNs Coordination
 - Whitelabel and Multi-Client Delivery
-- QA and Test Coverage Alignment
+- Feature Flags and Rollout Safety
+- Backend-Driven UI Delivery
+- CI/CD and Quality Practices
 - Realtime Communication Products
 - Hardware-Integrated Mobile Workflows
-- Technical Context: iOS, Swift, REST APIs, WebSockets, VoIP/SIP, LiveKit, WebKit, backend-driven UI
 
-## Work Experience
+## Professional Experience
 
-### Senior iOS Developer | circle.cloud
+### Principal iOS Developer | circle.cloud
 
-- **Location**: Hampshire, England, United Kingdom - Remote
-- **Dates**: 09/2023 - 05/2025
-- Took ownership during a critical reset phase when both the codebase and delivery process required rebuilding, then helped stabilize execution by introducing scalable architecture and clearer engineering workflows.
-- Coordinated delivery of real-time communication scope across messaging, VoIP/SIP calling, and LiveKit-powered video conferencing in a product with high reliability requirements.
-- Supported backend and mobile alignment around APNs setup, including token and certificate lifecycle, environment matching, and payload validation.
-- Mentored two developers, reduced the application size from 400 MB to 80 MB, and helped bring the product to full automated test coverage and fault-tolerant operation.
+- Location: Hampshire, England, United Kingdom - Remote
+- Dates: 09/2023 - 05/2025
+- Took ownership during a critical reset phase when both the codebase and delivery process required rebuilding, then helped stabilize execution through scalable architecture and clearer engineering practices.
+- Coordinated delivery of messaging, VoIP/SIP calling, and LiveKit-powered video conferencing in an enterprise unified communications product for iOS and iPadOS.
+- Supported backend and mobile alignment across REST and WebSocket-based communication flows, including push notification delivery, APNs environment maintenance, payload validation, and end-to-end notification testing.
+- Conducted code reviews, mentored two developers, and helped improve implementation quality, delivery reliability, and release stability through better validation practices.
+- Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage and fault-tolerant operation.
 
-### Senior iOS Developer | VData Software-Entwicklung GmbH
+### Principal iOS Developer | VData Software-Entwicklung GmbH
 
-- **Location**: Munich, Bavaria, Germany - Remote
-- **Dates**: 06/2020 - 08/2023
-- Served as lead architect, sole iOS owner, team lead, and Scrum Master for a major insurance SaaS companion app, combining delivery ownership with hands-on technical coordination.
-- Led a 5-person mobile team, including the Android developer, to keep architecture, delivery expectations, and coding standards aligned across platforms.
-- Coordinated backend-driven UI rules, payload contracts, validation logic, and rollout safety for more than 300 dynamically rendered screens.
-- Delivered a whitelabeling model that supported 7 client brands and worked closely with backend counterparts on APNs configuration, payload alignment, and delivery troubleshooting.
-- Improved document-capture workflows through reusable C and OpenCV modules that reduced relevant document recognition time to 0.1 seconds.
+- Location: Munich, Bavaria, Germany - Remote
+- Dates: 06/2020 - 08/2023
+- Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsroge, an insurance and employee-benefits SaaS mobile product later redistributed under the XEMPUS brand.
+- Led a 5-person mobile team and kept delivery, implementation quality, and technical standards aligned across the product.
+- Delivered a white-labeling solution for 7 client brands, introduced feature flags, and coordinated rollout-safe backend-driven UI for more than 300 dynamically rendered screens.
+- Partnered with backend teams on payload design, push notification flows, APNs environment configuration, rollout safety, and end-to-end notification testing.
+- Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
+- Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development.
 
 ### iOS Developer | Serialio.com
 
-- **Location**: Cedar Park, Texas, United States - Remote
-- **Dates**: 05/2012 - 05/2020
-- Held end-to-end ownership of architecture, delivery, and product decisions across a portfolio of barcode, BLE, NFC, browser, order, and inventory apps.
-- Coordinated mobile execution across customer-specific requirements, web application integrations, and hardware constraints for 16+ device and scanner families serving customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
-- Drove workflow and usability improvements across browser, order-management, and inventory products that connected mobile clients to web applications, cloud-backed systems, and field operations.
-- Delivered focused utilities and platform capabilities for scanning, BLE and NFC configuration, and offline workflows with direct ownership from implementation through release.
+- Location: Cedar Park, Texas, United States - Remote
+- Dates: 05/2012 - 05/2020
+- Held broad ownership across a portfolio of enterprise iOS and iPadOS products spanning order management, inventory, browser, inspection, and utility workflows.
+- Coordinated delivery across customer-specific requirements, web application integrations, hardware constraints, and 16+ device and scanner families for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
+- Drove workflow and usability improvements across App Store products including Cloud-In-Hand Mobile Order, Cloud-In-Hand Mobile Grid, iScanBrowser, SerialMagic Keys, RS3 NFC Setup, Inspect RRC, and yACK FAST.
+- Worked across legacy and evolving codebases with SVN and Git, including local persistence workflows backed by SQLite.
+- Contributed app icons, application visuals, and App Store marketing materials using Photoshop and Sketch.
+
+### Frontend Developer | Freelance
+
+- Dates: 06/2011 - 05/2012
+- Delivered brochure sites, marketing landing pages, and client-facing web projects from Photoshop designs using HTML, CSS, JavaScript, jQuery, and PHP.
 
 ## Projects
 
-### Finance Investment Software | Side Project
+### TradingView Dashboard | Side Project
 
-- **Dates**: 06/2024 - Present
-- Built monitoring and reporting workflows that collected, normalized, and stored signals from multiple financial analytics sources.
-- Created a live dashboard and structured daily and weekly summaries to support faster decision-making.
-- Produced rule-driven recommendations based on aggregated signals and model outputs.
+- Dates: 07/2025 - Present
+- Built and operated a reporting workflow that aggregates market signals, produces public web reports, and delivers scheduled Telegram updates through CI/CD-supported processes.
+
+### TrackFinder | Side Project
+
+- Dates: 08/2025 - Present
+- Built and shipped an App Store iOS application with ongoing validation and delivery workflows, reinforcing end-to-end ownership from product shaping through release.
 
 ## Education
 
-### Kharkiv Radio Technical College | Ukraine
+### Kharkiv Radio Technical College
 
+- Location: Ukraine
 - Degree: Software Developer
-- Graduated with High Honors, 2012
+- Graduation: 2012
+- Distinction: Graduated with High Honors
 
-## Spoken Languages
+## Languages
 
-- **English** (Intermediate)
-- **Ukrainian** (Native)
-- **Russian** (Native)
-- **Spanish** (Beginner)
+- English: Intermediate+
+- Ukrainian: Native
+- Russian: Native
+- Spanish: Beginner

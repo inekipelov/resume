@@ -1,71 +1,102 @@
-# Nekipelov Roman, iOS Developer
+# Nekipelov Roman
+
+iOS Engineer
 
 - Email: nekipelov.roma@gmail.com
+- Telegram: https://t.me/inekipelov
 - Location: Remote
 
 ## Links
 
-- [GitHub](https://github.com/inekipelov)
-- [LinkedIn](https://www.linkedin.com/in/inekipelov)
-- [App Store](https://apps.apple.com/us/developer/roman-nekipelov/id1841486819)
+- GitHub: https://github.com/inekipelov
+- LinkedIn: https://www.linkedin.com/in/inekipelov
+- App Store: https://apps.apple.com/us/developer/roman-nekipelov/id1841486819
 
-## Summary
+## Professional Summary
 
-iOS developer with 12+ years of hands-on experience building scalable, user-centric apps across iOS and the broader Apple platform ecosystem, including macOS, watchOS, iPadOS, and visionOS. Strong background in Swift, SwiftUI, Swift Concurrency, and modern Apple frameworks, with a consistent focus on clean architecture, maintainability, and reliable product delivery.
+iOS engineer with deep experience building and shipping iOS and iPadOS products across unified communications, insurance, hardware-integrated workflow systems, and App Store applications. Background includes Swift, Objective-C, UIKit, SwiftUI, Core Data, SwiftData, testing, CI/CD, and technical leadership.
 
-Product-minded engineer with strong UX intuition, experience shipping App Store products end to end, and a track record of leading architecture decisions and mentoring developers. Comfortable working across communication, hardware integration, document capture, and workflow-heavy apps while keeping the user experience clear, delivery predictable, and the codebase stable.
+Experience includes architecture modernization, real-time communication features, push notification delivery, backend-mobile integration, and hardware connectivity across BLE, MFi, barcode, RFID, and NFC workflows. Has owned complex mobile products end to end, improved delivery reliability, and mentored engineers while maintaining product quality and codebase stability.
 
-## Technical Skills
+## Skills
 
-- **Languages**: Objective-C, C, C++, Swift, Python, JavaScript, HTML
-- **Apple Frameworks**: SwiftUI, UIKit, SwiftData, Core Data, Swift Concurrency, Combine, CoreBluetooth, ExternalAccessory, Vision, StoreKit, Foundation Models
-- **Third-Party / Adjacent**: RxSwift, OpenCV, LiveKit
-- **Data / Storage**: SQLite
-- **Tools**: Xcode, VS Code, Git, Sketch, Figma
-- **Technologies / Protocols**: MFi, BLE, REST, WebSockets
+- Languages: Swift, Objective-C, C++, JavaScript
+- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, GCD
+- Realtime and Integration: WebSockets, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
+- Quality and Delivery: XCTest, Swift Testing, Git, Gitflow, SVN, CI/CD
+- Adjacent Technologies: OpenCV, SQLite, Photoshop, Sketch, Figma
 
-## Spoken Languages
+## Professional Experience
 
-- **English** (Intermediate)
-- **Ukrainian** (Native)
-- **Russian** (Native)
-- **Spanish** (Beginner)
+### Principal iOS Developer | circle.cloud
 
-## Work Experience
+- Location: Hampshire, England, United Kingdom - Remote
+- Dates: 09/2023 - 05/2025
+- Product: WE UC, an enterprise unified communications product for iOS and iPadOS
+- Rebuilt a product in reset phase by introducing scalable architecture for messaging, calling, and real-time communication flows while resolving long-standing technical debt.
+- Delivered WebSocket-based messaging, VoIP/SIP calling, and LiveKit-powered video conferencing for real-time unified communications workflows.
+- Implemented push notification flows, maintained APNs environments, validated payloads, and supported end-to-end notification testing across backend and mobile boundaries.
+- Conducted code reviews, mentored two developers, and helped improve engineering quality, reliability, and delivery practices.
+- Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.
 
-### Senior iOS Developer | circle.cloud
+### Principal iOS Developer | VData Software-Entwicklung GmbH
 
-- **Location**: Hampshire, England, United Kingdom - Remote
-- **Dates**: 09/2023 - 05/2025
-- **We UC**: Joined during a critical phase when the codebase and development processes required a full overhaul. Helped move the project out of crisis within three months, introduced a clean and scalable architecture, and resolved long-standing technical debt.
-- Implemented real-time communication features including VoIP/SIP calling, LiveKit-powered video conferencing, and WebSocket-based messaging.
-- Reverse-engineered a closed third-party framework to identify and fix contractor-side integration issues that were blocking product stability.
-- Established engineering workflows, mentored two developers, reduced the application size from 400 MB to 80 MB, and brought the project to full automated test coverage and fault-tolerant operation.
-
-### Senior iOS Developer | VData Software-Entwicklung GmbH
-
-- **Location**: Munich, Bavaria, Germany - Remote
-- **Dates**: 06/2020 - 08/2023
-- **eVorsorge**: Served as lead architect, sole iOS owner, team lead, and Scrum Master for a major insurance SaaS companion app.
-- Built a flexible whitelabeling system that supported 7 white-label clients and designed backend-driven UI for more than 300 dynamically rendered screens.
-- Developed reusable C modules with OpenCV for advanced camera processing and document-capture workflows, reducing relevant document recognition time to 0.1 seconds.
-- Led a 5-person mobile team, including the Android developer, to keep architecture, delivery, and coding standards aligned across platforms.
+- Location: Munich, Bavaria, Germany - Remote
+- Dates: 06/2020 - 08/2023
+- App Store: https://apps.apple.com/de/app/xempus/id1510760495
+- Product: eVorsroge, an insurance and employee-benefits SaaS companion app for iOS and iPadOS, later redistributed under the XEMPUS brand
+- Served as lead architect, sole iOS owner, team lead, and Scrum Master for a multi-client mobile product.
+- Built a white-labeling solution for 7 client brands and delivered backend-driven UI for more than 300 dynamically rendered screens.
+- Introduced feature flags for safer rollout control and tenant-specific product configuration.
+- Partnered with backend teams on push notification payload design, APNs environment configuration, rollout safety, and end-to-end notification testing.
+- Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
+- Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
 
 ### iOS Developer | Serialio.com
 
-- **Location**: Cedar Park, Texas, United States - Remote
-- **Dates**: 05/2012 - 05/2020
-- Served as sole iOS owner with end-to-end responsibility for architecture, delivery, and product decisions across a portfolio of barcode, BLE, NFC, and field-workflow apps.
-- Supported integrations across 16+ devices and scanner or reader families, including hardware from Scanfob, idChamp, CipherLab, Opticon, HID, and Tertium, for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
-- **Cloud-In-Hand Mobile Order**: Enhanced a mature order-management product with Bluetooth peripheral and barcode scanner support. Delivered major UX improvements, led the post-iOS 7 redesign, and built custom UIKit components that simplified complex workflows while improving long-term maintainability.
-- **Cloud-In-Hand Mobile Grid**: Improved an established inventory product with custom-cloud sync by increasing interface clarity, performance, and workflow usability. Refined interaction logic, refreshed visual design, and built custom UIKit components for grid-oriented data handling.
-- **iScanBrowser**: Improved a mission-critical browser that integrated peripheral devices and barcode scanners into a WebView for hardware-driven workflows inside web applications. Refined navigation, delivered scanning-focused UX enhancements, and strengthened maintainability across legacy modules.
-- **SerialMagic**: Built a standalone keyboard extension that enabled barcode-scanner workflows in any app immediately after iOS 8 introduced extension APIs. Implemented complex business logic within a constrained environment and delivered reliable, fast, and predictable scanning behavior across the system.
-- **Additional products**: Independently developed RS3 NFC Setup, Inspect RRC, and yACK FAST, focused utilities for BLE configuration and offline field workflows with end-to-end ownership across UX, implementation, and delivery.
+- Location: Cedar Park, Texas, United States - Remote
+- Dates: 05/2012 - 05/2020
+- Worked across a portfolio of enterprise iOS and iPadOS products used in sales, inventory, browser, inspection, and utility workflows.
+- Supported integrations across 16+ device and scanner families for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
+- Built SerialioDeviceManager, an internal framework that encapsulated business logic and reusable device-integration workflows for WiSnap, MFi, and BLE hardware used across multiple company products.
+- Improved and maintained App Store products including Cloud-In-Hand Mobile Order, Cloud-In-Hand Mobile Grid, iScanBrowser, SerialMagic Keys, RS3 NFC Setup, Inspect RRC, and yACK FAST.
+- Delivered browser, scanning, keyboard extension, BLE, RFID, and NFC workflows using UIKit, WebKit, JavaScriptCore, CoreBluetooth, and ExternalAccessory.
+- Worked with both SVN and Git across legacy and actively evolving codebases, including local persistence workflows backed by SQLite.
+- Contributed as a designer for app icons, application visuals, and App Store marketing materials using Photoshop and Sketch.
+
+### Frontend Developer | Freelance
+
+- Dates: 06/2011 - 05/2012
+- Built dynamic and static websites, brochure sites, and marketing landing pages using HTML, CSS, JavaScript, jQuery, and PHP.
+- Implemented websites from client-provided Photoshop designs and produced client-facing design work in Photoshop.
+
+## Projects
+
+### TrackFinder | Side Project
+
+- Dates: 08/2025 - Present
+- App Store: https://apps.apple.com/de/app/trackfinder-app/id6752876557
+- Built an iOS 17+ SwiftUI app for finding the same music track across multiple streaming sources from a shared or pasted URL.
+- Used SwiftUI, SwiftData, UIKit Share Extension, Observation, Swift Concurrency, and REST APIs to implement share flow support, track lookup history, and configurable multi-source search.
+- Integrated the Song.link API and the iTunes Lookup API for cross-platform track resolution and music app metadata.
+
+### TradingView Dashboard | Side Project
+
+- Dates: 07/2025 - Present
+- Built a Python and FastAPI service for market dashboards, reporting, and Telegram delivery, extending hands-on experience beyond mobile into backend-adjacent product development.
 
 ## Education
 
-### Kharkiv Radio Technical College | Ukraine
+### Kharkiv Radio Technical College
 
+- Location: Ukraine
 - Degree: Software Developer
-- Graduated with High Honors, 2012
+- Graduation: 2012
+- Distinction: Graduated with High Honors
+
+## Languages
+
+- English: Intermediate+
+- Ukrainian: Native
+- Russian: Native
+- Spanish: Beginner
