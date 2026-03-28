@@ -21,7 +21,7 @@ iOS-розробник із глибоким досвідом створення
 ## Ключові навички
 
 - Мови: Swift, Objective-C, C++, JavaScript
-- Apple платформи та фреймворки: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- Apple платформи та фреймворки: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
 - Realtime та інтеграції: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Якість та delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Суміжні технології: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -51,7 +51,7 @@ iOS-розробник із глибоким досвідом створення
 - Впровадив feature flags для безпечнішого rollout control і tenant-specific product configuration.
 - Реалізував 2FA functionality для authentication-sensitive user flows, використовуючи CryptoKit, Face ID, Touch ID, LocalAuthentication і Keychain Services для mobile authentication methods та вимог backend verification.
 - Співпрацював із backend-командами над push notification payload design, APNs environment configuration, rollout safety та end-to-end notification testing.
-- Розробив reusable C++ та OpenCV modules для document-capture workflows, включно зі shared solutions для Android development, що зменшили час релевантного розпізнавання документів до 0.1 seconds.
+- Розробив reusable Vision, PhotoKit, ImageIO, C++ та OpenCV modules для document-capture workflows, включно зі shared solutions для Android development, що зменшили час релевантного розпізнавання документів до 0.1 seconds.
 - Готував design documentation, підтримував product prototypes у Sketch і Figma та створював App Store materials для release workflows.
 
 ### iOS Developer | Serialio.com

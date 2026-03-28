@@ -11,7 +11,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 ## Core Skills Inventory
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
 - Realtime, Integration, and Delivery: VoIP/SIP, LiveKit, APNs, REST APIs, WebSockets, Socket.IO, BLE, MFi, backend-driven UI, Telegram API, Firebase API
 - Data and Storage: SQLite, PostgreSQL, SQL, Redis
 - Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, XCTest, Swift Testing, Firebase Crashlytics, Photoshop, Sketch, Figma
@@ -42,7 +42,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 06/2020 - 08/2023
 - Location: Munich, Bavaria, Germany - Remote
 - App Store: https://apps.apple.com/de/app/xempus/id1510760495
-- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, REST APIs, Core Data, CryptoKit, LocalAuthentication, Keychain Services, GCD, OpenCV, Firebase API, Firebase Crashlytics, Git, Gitflow
+- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, REST APIs, Core Data, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, GCD, OpenCV, Firebase API, Firebase Crashlytics, Git, Gitflow
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsroge, an insurance and employee-benefits SaaS companion app for iOS and iPadOS later acquired and redistributed under the XEMPUS brand.
 - Developed a white-labeling solution that supported 7 client brands.
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
@@ -51,7 +51,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
 - Partnered with backend teams on push notification payload design, rollout safety, APNs environment configuration, and end-to-end notification testing.
 - Conducted code reviews and helped maintain implementation quality and consistency across the mobile team.
-- Led a 5-person mobile team and developed reusable C++ and OpenCV modules for document-capture workflows, including universal solutions shared with Android development, reducing relevant document recognition time to 0.1 seconds.
+- Led a 5-person mobile team and developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including universal solutions shared with Android development, reducing relevant document recognition time to 0.1 seconds.
 
 ### Serialio.com
 

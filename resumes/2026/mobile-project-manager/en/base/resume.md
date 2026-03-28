@@ -58,7 +58,7 @@ Combines technical leadership with product delivery ownership across unified com
 - Delivered 2FA functionality for authentication-sensitive user flows, including Face ID and Touch ID integration through LocalAuthentication, Keychain Services usage, and coordination of the related mobile and backend verification behavior.
 - Partnered with backend teams on payload design, push notification flows, APNs environment configuration, rollout safety, and end-to-end notification testing.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
-- Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development.
+- Developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development.
 
 ### iOS Developer | Serialio.com
 

@@ -21,7 +21,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 ## Habilidades
 
 - Lenguajes: Swift, Objective-C, C++, JavaScript
-- Plataformas y frameworks Apple: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- Plataformas y frameworks Apple: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
 - Realtime e integración: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Calidad y delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Tecnologías relacionadas: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -51,7 +51,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 - Introduje feature flags para un rollout control más seguro y tenant-specific product configuration.
 - Implementé funcionalidad 2FA para authentication-sensitive user flows utilizando CryptoKit, Face ID, Touch ID, LocalAuthentication y Keychain Services para métodos de autenticación y requisitos de backend verification.
 - Colaboré con equipos backend en push notification payload design, configuración de entornos APNs, rollout safety y end-to-end notification testing.
-- Desarrollé reusable C++ y OpenCV modules para document-capture workflows, incluyendo shared solutions para Android development, reduciendo el tiempo de reconocimiento relevante de documentos a 0.1 seconds.
+- Desarrollé reusable Vision, PhotoKit, ImageIO, C++ y OpenCV modules para document-capture workflows, incluyendo shared solutions para Android development, reduciendo el tiempo de reconocimiento relevante de documentos a 0.1 seconds.
 - Preparé design documentation, mantuve product prototypes en Sketch y Figma y elaboré materiales de App Store para release workflows.
 
 ### iOS Developer | Serialio.com

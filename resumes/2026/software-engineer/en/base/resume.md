@@ -21,7 +21,7 @@ Brings a mobile-first engineering background with practical experience in Python
 ## Skills
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit
+- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit
 - Backend and APIs: FastAPI, REST APIs, WebSockets, Socket.IO, PostgreSQL, Redis, SQL, Telegram API, Firebase API
 - Realtime and Integration: VoIP/SIP, LiveKit, APNs, BLE, MFi, ExternalAccessory, CoreBluetooth
 - Quality and Delivery: Git, Gitflow, SVN, CI/CD, XCTest, Swift Testing, Playwright, Docker, Firebase Crashlytics
@@ -48,7 +48,7 @@ Brings a mobile-first engineering background with practical experience in Python
 - Designed and delivered backend-driven UI for more than 300 dynamically rendered screens and introduced feature flags for safer rollout control and tenant-specific configuration.
 - Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of mobile authentication methods and backend verification requirements.
 - Partnered with backend teams on payload contracts, rollout safety, push notification payload design, APNs environment configuration, and end-to-end notification testing.
-- Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
+- Developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
 - Conducted code reviews, led a 5-person mobile team, and helped keep implementation quality and consistency aligned across the product.
 
 ### iOS Developer | Serialio.com
