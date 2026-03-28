@@ -35,11 +35,14 @@ Senior mobile-focused software engineer, adjacent backend-facing product work, a
 - Title: Principal iOS Developer
 - Dates: 06/2020 - 08/2023
 - Location: Munich, Bavaria, Germany - Remote
-- Served as lead architect, sole iOS owner, team lead, and Scrum Master for an insurance SaaS companion app.
-- Built a whitelabeling model that supported 7 client brands.
-- Designed and delivered backend-driven UI for more than 300 dynamically rendered screens.
+- App Store: https://apps.apple.com/de/app/xempus/id1510760495
+- Technologies: Objective-C, Swift, C, UIKit, SwiftUI, REST API, CoreData, OpenCV, Git, Gitflow
+- Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsroge, an insurance and employee-benefits SaaS companion app later acquired and redistributed under the XEMPUS brand.
+- Developed a white-labeling solution that supported 7 client brands.
+- Introduced feature flags for safer rollout control and tenant-specific product configuration.
+- Designed and delivered BDUI (backend-driven UI) for more than 300 dynamically rendered screens.
 - Partnered with backend teams on payload design, rollout safety, and APNs configuration.
-- Led a 5-person mobile team and developed reusable C and OpenCV modules for document capture workflows, reducing relevant document recognition time to 0.1 seconds.
+- Led a 5-person mobile team and developed reusable C and OpenCV modules for document-capture workflows, including universal solutions shared with Android development, reducing relevant document recognition time to 0.1 seconds.
 
 ### Serialio.com
 
