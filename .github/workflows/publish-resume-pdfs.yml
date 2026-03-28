@@ -1,4 +1,4 @@
-name: Publish Resume PDFs
+name: Publish Resume PDF Exports
 
 on:
   push:
@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   publish:
-    name: Build and publish versioned release
+    name: Build and publish PDF exports
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -90,6 +90,6 @@ jobs:
         run: |
           gh release create "$RELEASE_TAG" dist/resume-pdfs/*.pdf \
             --title "$RELEASE_VERSION" \
-            --notes "Auto-generated resume PDFs version $RELEASE_VERSION from commit $GITHUB_SHA on branch $GITHUB_REF_NAME." \
+            --notes "Auto-generated PDF exports from derived resume Markdown for version $RELEASE_VERSION from commit $GITHUB_SHA on branch $GITHUB_REF_NAME." \
             --target "$GITHUB_SHA" \
             --latest
