@@ -24,11 +24,15 @@ Senior mobile-focused software engineer, adjacent backend-facing product work, a
 - Title: Principal iOS Developer
 - Dates: 09/2023 - 05/2025
 - Location: Hampshire, England, United Kingdom - Remote
-- Joined during a critical reset phase when both the codebase and delivery process required rebuilding.
-- Introduced scalable architecture, stabilized execution, and resolved long-standing technical debt.
-- Delivered messaging, VoIP/SIP calling, and LiveKit-powered video conferencing.
-- Supported APNs setup and payload validation across backend and mobile boundaries.
-- Mentored two developers, reduced the application size from 400 MB to 80 MB, and helped drive the product to full automated test coverage and fault-tolerant operation.
+- Product: WE UC, an enterprise unified communications product
+- Technologies: Swift, Objective-C, UIKit, Combine, SwiftUI, CoreData, SwiftData, Swift Concurrency, XCTest, Swift Testing, Git, Gitflow
+- Joined during a critical reset phase when both the WE UC codebase and delivery process required rebuilding.
+- Introduced scalable architecture for messaging, calling, and real-time communication flows, stabilized execution, and resolved long-standing technical debt across the iOS codebase.
+- Delivered messaging, VoIP/SIP calling, and LiveKit-powered video conferencing for real-time unified communications workflows.
+- Supported APNs setup, notification payload validation, and backend-mobile integration boundaries for messaging and calling flows.
+- Conducted code reviews and helped raise implementation quality, consistency, and maintainability across the team.
+- Reduced the application size from 400 MB to 80 MB and helped drive the product toward full automated test coverage, release stability, and fault-tolerant operation.
+- Mentored two developers and helped establish more reliable engineering and delivery practices.
 
 ### VData Software-Entwicklung GmbH
 
@@ -42,6 +46,7 @@ Senior mobile-focused software engineer, adjacent backend-facing product work, a
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
 - Designed and delivered BDUI (backend-driven UI) for more than 300 dynamically rendered screens.
 - Partnered with backend teams on payload design, rollout safety, and APNs configuration.
+- Conducted code reviews and helped maintain implementation quality and consistency across the mobile team.
 - Led a 5-person mobile team and developed reusable C and OpenCV modules for document-capture workflows, including universal solutions shared with Android development, reducing relevant document recognition time to 0.1 seconds.
 
 ### Serialio.com
