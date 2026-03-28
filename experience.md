@@ -11,10 +11,10 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 ## Core Skills Inventory
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, GCD
-- Realtime, Integration, and Delivery: VoIP/SIP, LiveKit, APNs, REST APIs, WebSockets, BLE, MFi, backend-driven UI, Telegram API
+- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, GCD
+- Realtime, Integration, and Delivery: VoIP/SIP, LiveKit, APNs, REST APIs, WebSockets, Socket.IO, BLE, MFi, backend-driven UI, Telegram API, Firebase API
 - Data and Storage: SQLite, PostgreSQL, SQL, Redis
-- Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, XCTest, Swift Testing, Photoshop, Sketch, Figma
+- Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, XCTest, Swift Testing, Firebase Crashlytics, Photoshop, Sketch, Figma
 - Adjacent Technologies: OpenCV, jQuery, OpenRouter, Codex
 
 ## Work Experience
@@ -25,7 +25,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 09/2023 - 05/2025
 - Location: Hampshire, England, United Kingdom - Remote
 - Product: WE UC, an enterprise unified communications product for iOS and iPadOS
-- Technologies: Swift, Objective-C, UIKit, Combine, SwiftUI, Core Data, SwiftData, Swift Concurrency, WebSockets, XCTest, Swift Testing, Git, Gitflow
+- Technologies: Swift, Objective-C, UIKit, Combine, SwiftUI, Core Data, SwiftData, Swift Concurrency, WebSockets, Socket.IO, XCTest, Swift Testing, Git, Gitflow
 - Joined during a critical reset phase when both the WE UC codebase and delivery process required rebuilding.
 - Introduced scalable architecture for messaging, calling, and real-time communication flows, stabilized execution, and resolved long-standing technical debt across the iOS codebase.
 - Delivered messaging, VoIP/SIP calling, and LiveKit-powered video conferencing for real-time unified communications workflows.
@@ -41,10 +41,11 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 06/2020 - 08/2023
 - Location: Munich, Bavaria, Germany - Remote
 - App Store: https://apps.apple.com/de/app/xempus/id1510760495
-- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, REST APIs, Core Data, GCD, OpenCV, Git, Gitflow
+- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, REST APIs, Core Data, CryptoKit, GCD, OpenCV, Firebase API, Firebase Crashlytics, Git, Gitflow
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsroge, an insurance and employee-benefits SaaS companion app for iOS and iPadOS later acquired and redistributed under the XEMPUS brand.
 - Developed a white-labeling solution that supported 7 client brands.
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
+- Implemented 2FA functionality for authentication-sensitive user flows, using CryptoKit as a cryptography tool for 2FA and user authentication methods while aligning mobile behavior with backend verification requirements.
 - Designed and delivered BDUI (backend-driven UI) for more than 300 dynamically rendered screens.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
 - Partnered with backend teams on push notification payload design, rollout safety, APNs environment configuration, and end-to-end notification testing.
@@ -170,6 +171,15 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Implemented payload validation, webhook ingestion, and calendar-based buffering for daily and weekly signals.
 - Used CI/CD workflows to support automated validation and delivery of notification service updates.
 - Delivered timezone-aware publication scheduling, chart links, and Markdown-formatted Telegram messages via the Telegram API.
+
+### Bitcoin Wallet
+
+- Type: Side Project
+- Dates: 08/2023
+- Built a SwiftUI iOS testnet Bitcoin wallet prototype with wallet creation, balance sync, address generation, and transaction sending flows.
+- Technologies: Swift, SwiftUI, Combine, CryptoKit
+- Used BitcoinDevKit with Taproot descriptors and Electrum-based testnet synchronization for wallet loading, fee estimation, signing, and transaction broadcasting.
+- Implemented wallet state management, mnemonic persistence, pull-to-refresh synchronization, testnet address copy flow, and send-result presentation with transaction details.
 
 ## Education
 

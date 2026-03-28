@@ -21,10 +21,10 @@ Experience includes architecture modernization, real-time communication features
 ## Skills
 
 - Languages: Swift, Objective-C, C++, JavaScript
-- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, GCD
-- Realtime and Integration: WebSockets, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
-- Quality and Delivery: XCTest, Swift Testing, Git, Gitflow, SVN, CI/CD
-- Adjacent Technologies: OpenCV, SQLite, Photoshop, Sketch, Figma
+- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, GCD
+- Realtime and Integration: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
+- Quality and Delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
+- Adjacent Technologies: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
 
 ## Professional Experience
 
@@ -48,6 +48,7 @@ Experience includes architecture modernization, real-time communication features
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for a multi-client mobile product.
 - Built a white-labeling solution for 7 client brands and delivered backend-driven UI for more than 300 dynamically rendered screens.
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
+- Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit in support of mobile authentication methods and backend verification requirements.
 - Partnered with backend teams on push notification payload design, APNs environment configuration, rollout safety, and end-to-end notification testing.
 - Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
@@ -79,6 +80,12 @@ Experience includes architecture modernization, real-time communication features
 - Built an iOS 17+ SwiftUI app for finding the same music track across multiple streaming sources from a shared or pasted URL.
 - Used SwiftUI, SwiftData, UIKit Share Extension, Observation, Swift Concurrency, and REST APIs to implement share flow support, track lookup history, and configurable multi-source search.
 - Integrated the Song.link API and the iTunes Lookup API for cross-platform track resolution and music app metadata.
+
+### Bitcoin Wallet | Side Project
+
+- Dates: 08/2023
+- Built a SwiftUI iOS testnet Bitcoin wallet prototype with wallet creation, balance sync, address generation, and transaction sending flows.
+- Used BitcoinDevKit, Electrum-based synchronization, Combine, and CryptoKit-backed wallet logic to implement wallet loading, fee estimation, signing, and transaction broadcasting.
 
 ### TradingView Dashboard | Side Project
 

@@ -21,10 +21,10 @@ Brings a mobile-first engineering background with practical experience in Python
 ## Skills
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData
-- Backend and APIs: FastAPI, REST APIs, WebSockets, PostgreSQL, Redis, SQL, Telegram API
+- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, CryptoKit
+- Backend and APIs: FastAPI, REST APIs, WebSockets, Socket.IO, PostgreSQL, Redis, SQL, Telegram API, Firebase API
 - Realtime and Integration: VoIP/SIP, LiveKit, APNs, BLE, MFi, ExternalAccessory, CoreBluetooth
-- Quality and Delivery: Git, Gitflow, SVN, CI/CD, XCTest, Swift Testing, Playwright, Docker
+- Quality and Delivery: Git, Gitflow, SVN, CI/CD, XCTest, Swift Testing, Playwright, Docker, Firebase Crashlytics
 - Adjacent Technologies: OpenCV, backend-driven UI, OpenRouter
 
 ## Professional Experience
@@ -45,6 +45,7 @@ Brings a mobile-first engineering background with practical experience in Python
 - Dates: 06/2020 - 08/2023
 - Served as lead architect and sole iOS owner for an insurance and employee-benefits SaaS product with 7 white-label client brands.
 - Designed and delivered backend-driven UI for more than 300 dynamically rendered screens and introduced feature flags for safer rollout control and tenant-specific configuration.
+- Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit in support of mobile authentication methods and backend verification requirements.
 - Partnered with backend teams on payload contracts, rollout safety, push notification payload design, APNs environment configuration, and end-to-end notification testing.
 - Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
 - Conducted code reviews, led a 5-person mobile team, and helped keep implementation quality and consistency aligned across the product.
@@ -82,6 +83,11 @@ Brings a mobile-first engineering background with practical experience in Python
 
 - Dates: 08/2025 - Present
 - Built an iOS 17+ SwiftUI app with SwiftData, a share extension, and API integrations for cross-platform track resolution and music metadata lookup.
+
+### Bitcoin Wallet | Side Project
+
+- Dates: 08/2023
+- Built a SwiftUI Bitcoin testnet wallet prototype using BitcoinDevKit, Electrum, Combine, and CryptoKit for wallet loading, balance sync, address generation, fee estimation, signing, and transaction broadcasting.
 
 ## Education
 

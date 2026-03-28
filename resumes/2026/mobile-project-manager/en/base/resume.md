@@ -54,6 +54,7 @@ Combines technical leadership with product delivery ownership across unified com
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsroge, an insurance and employee-benefits SaaS mobile product later redistributed under the XEMPUS brand.
 - Led a 5-person mobile team and kept delivery, implementation quality, and technical standards aligned across the product.
 - Delivered a white-labeling solution for 7 client brands, introduced feature flags, and coordinated rollout-safe backend-driven UI for more than 300 dynamically rendered screens.
+- Delivered 2FA functionality for authentication-sensitive user flows and coordinated the related mobile and backend verification behavior.
 - Partnered with backend teams on payload design, push notification flows, APNs environment configuration, rollout safety, and end-to-end notification testing.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
 - Developed reusable C++ and OpenCV modules for document-capture workflows, including shared solutions used by Android development.
@@ -84,6 +85,11 @@ Combines technical leadership with product delivery ownership across unified com
 
 - Dates: 08/2025 - Present
 - Built and shipped an App Store iOS application with ongoing validation and delivery workflows, reinforcing end-to-end ownership from product shaping through release.
+
+### Bitcoin Wallet | Side Project
+
+- Dates: 08/2023
+- Built a scoped SwiftUI Bitcoin wallet prototype from wallet initialization through send flow, reinforcing rapid product prototyping and end-to-end ownership in a constrained implementation task.
 
 ## Education
 
