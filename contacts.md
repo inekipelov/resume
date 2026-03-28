@@ -21,7 +21,7 @@
 
 - Preferred Work Mode: Remote
 - Tax Residency: Ukraine, Spain
-- Banned Niches: Adult, Gambling, Miltech
+- Banned Niches: Adult, Gambling, Miltech, Spiritual/Esoteric
 - Resume Repository Contract: contact and profile facts are maintained here and in `experience.md`, then adapted into derived resumes under `resumes/**/resume.md`
 
 ## Spoken Languages
