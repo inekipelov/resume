@@ -1,16 +1,18 @@
 # Release PDF Pipeline
 
-This repository stores resumes in Markdown as the only source of truth.
-PDF files are generated only in CI and published as GitHub Release assets.
+This repository stores canonical resume facts in `contacts.md` and `experience.md`, then
+maintains derived resumes under `resumes/**/resume.md`. PDF files are optional exports built
+from those derived resumes and published as GitHub Release assets.
 
 ## Purpose
 
-- Keep resume content editable and reviewable in Markdown.
-- Produce fresh PDF files automatically from branch `release`.
-- Publish immutable versioned GitHub Releases.
+- Keep canonical facts editable and reviewable in Markdown.
+- Generate PDFs only from derived `resume.md` files when a distributable artifact is needed.
+- Publish immutable versioned GitHub Releases for exported PDFs.
 
 ## Source Files
 
+- Canonical facts are maintained in `contacts.md` and `experience.md`.
 - The generator scans all files matching `resumes/**/resume.md`.
 - Paths must follow `resumes/<year>/<role>/<lang>/<variant>/resume.md`.
 - Invalid paths fail the build with a clear error message.
@@ -34,7 +36,7 @@ PDF files are generated only in CI and published as GitHub Release assets.
 
 1. Push or merge resume changes into branch `release`.
 2. Workflow `.github/workflows/publish-resume-pdfs.yml` runs.
-3. CI generates all PDFs into `dist/resume-pdfs/`.
+3. CI generates PDFs from derived resumes into `dist/resume-pdfs/`.
 4. If the legacy `resume-pdfs-latest` release still exists, CI deletes it once with tag cleanup.
 5. CI creates a new versioned release and uploads the current PDF assets.
 

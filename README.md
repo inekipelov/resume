@@ -1,7 +1,7 @@
 <div align="center">
   <h1><b>Resume</b></h1>
   <p>
-    Canonical Markdown resumes with versioned PDF exports published through GitHub Releases.
+    Markdown-first workspace for storing, organizing, and exporting resume variants.
   </p>
 </div>
 
@@ -13,6 +13,13 @@
 
 ## Overview
 
-- Markdown under `resumes/<year>/<role>/<language>/<variant>/resume.md` is the only source of truth.
-- PDF files are generated from the `release` branch and published as versioned GitHub Releases.
+- Canonical fact sources live in `contacts.md` and `experience.md`.
+- Derived resumes live under `resumes/<year>/<role>/<language>/<variant>/resume.md`.
+- Derived resumes are the only inputs to the PDF export pipeline.
+- PDF exports are optional delivery artifacts and are not a source of truth.
+
+## PDF Export
+
+- Run `npm run build:resume-pdfs` to build PDFs from derived `resume.md` files.
+- The `release` branch workflow can publish generated PDFs as versioned GitHub Releases.
 - Stable download links use GitHub's `releases/latest/download/...` endpoint.
