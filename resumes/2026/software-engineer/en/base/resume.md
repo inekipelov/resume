@@ -21,7 +21,7 @@ Brings a mobile-first engineering background with practical experience in Python
 ## Skills
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, CryptoKit
+- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, CryptoKit, CallKit, PushKit
 - Backend and APIs: FastAPI, REST APIs, WebSockets, Socket.IO, PostgreSQL, Redis, SQL, Telegram API, Firebase API
 - Realtime and Integration: VoIP/SIP, LiveKit, APNs, BLE, MFi, ExternalAccessory, CoreBluetooth
 - Quality and Delivery: Git, Gitflow, SVN, CI/CD, XCTest, Swift Testing, Playwright, Docker, Firebase Crashlytics
@@ -34,7 +34,7 @@ Brings a mobile-first engineering background with practical experience in Python
 - Location: Hampshire, England, United Kingdom - Remote
 - Dates: 09/2023 - 05/2025
 - Rebuilt a product in reset phase by introducing scalable architecture, stabilizing execution, and resolving long-standing technical debt across a unified communications iOS codebase.
-- Delivered WebSocket-based messaging, VoIP/SIP calling, and LiveKit-powered video conferencing for real-time communication workflows.
+- Delivered WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time communication workflows.
 - Supported backend-mobile integration across REST and WebSocket-based flows, including push notification delivery, APNs environment maintenance, payload validation, and end-to-end notification testing.
 - Conducted code reviews, mentored engineers, and improved delivery reliability through testing and CI/CD-oriented validation practices.
 - Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.

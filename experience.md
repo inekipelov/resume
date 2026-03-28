@@ -11,7 +11,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 ## Core Skills Inventory
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, GCD
+- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, CallKit, PushKit, GCD
 - Realtime, Integration, and Delivery: VoIP/SIP, LiveKit, APNs, REST APIs, WebSockets, Socket.IO, BLE, MFi, backend-driven UI, Telegram API, Firebase API
 - Data and Storage: SQLite, PostgreSQL, SQL, Redis
 - Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, XCTest, Swift Testing, Firebase Crashlytics, Photoshop, Sketch, Figma
@@ -25,10 +25,10 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 09/2023 - 05/2025
 - Location: Hampshire, England, United Kingdom - Remote
 - Product: WE UC, an enterprise unified communications product for iOS and iPadOS
-- Technologies: Swift, Objective-C, UIKit, Combine, SwiftUI, Core Data, SwiftData, Swift Concurrency, WebSockets, Socket.IO, XCTest, Swift Testing, Git, Gitflow
+- Technologies: Swift, Objective-C, UIKit, Combine, SwiftUI, Core Data, SwiftData, Swift Concurrency, WebSockets, Socket.IO, CallKit, PushKit, XCTest, Swift Testing, Git, Gitflow
 - Joined during a critical reset phase when both the WE UC codebase and delivery process required rebuilding.
 - Introduced scalable architecture for messaging, calling, and real-time communication flows, stabilized execution, and resolved long-standing technical debt across the iOS codebase.
-- Delivered messaging, VoIP/SIP calling, and LiveKit-powered video conferencing for real-time unified communications workflows.
+- Delivered messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time unified communications workflows.
 - Delivered push notification flows, configured and maintained APNs environments, validated notification payloads, and supported backend-mobile integration boundaries across REST and WebSocket-based messaging and calling flows, including testing of end-to-end notification behavior.
 - Conducted code reviews and helped raise implementation quality, consistency, and maintainability across the team.
 - Worked with CI/CD practices to improve validation, delivery reliability, and release stability across the product lifecycle.

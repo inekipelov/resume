@@ -21,7 +21,7 @@ Experience includes architecture modernization, real-time communication features
 ## Skills
 
 - Languages: Swift, Objective-C, C++, JavaScript
-- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, GCD
+- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, CallKit, PushKit, GCD
 - Realtime and Integration: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Quality and Delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Adjacent Technologies: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -34,7 +34,7 @@ Experience includes architecture modernization, real-time communication features
 - Dates: 09/2023 - 05/2025
 - Product: WE UC, an enterprise unified communications product for iOS and iPadOS
 - Rebuilt a product in reset phase by introducing scalable architecture for messaging, calling, and real-time communication flows while resolving long-standing technical debt.
-- Delivered WebSocket-based messaging, VoIP/SIP calling, and LiveKit-powered video conferencing for real-time unified communications workflows.
+- Delivered WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time unified communications workflows.
 - Implemented push notification flows, maintained APNs environments, validated payloads, and supported end-to-end notification testing across backend and mobile boundaries.
 - Conducted code reviews, mentored two developers, and helped improve engineering quality, reliability, and delivery practices.
 - Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.

@@ -21,7 +21,7 @@ iOS-розробник із глибоким досвідом створення
 ## Ключові навички
 
 - Мови: Swift, Objective-C, C++, JavaScript
-- Apple платформи та фреймворки: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, GCD
+- Apple платформи та фреймворки: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, CryptoKit, CallKit, PushKit, GCD
 - Realtime та інтеграції: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Якість та delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Суміжні технології: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -34,7 +34,7 @@ iOS-розробник із глибоким досвідом створення
 - Період: 09/2023 - 05/2025
 - Продукт: WE UC, enterprise unified communications продукт для iOS та iPadOS
 - Працював над відновленням продукту в reset phase: впровадив масштабовану архітектуру для messaging, calling і real-time communication flows та скоротив накопичений технічний борг.
-- Реалізував WebSocket-based messaging, VoIP/SIP calling і LiveKit-powered video conferencing для real-time unified communications сценаріїв.
+- Реалізував WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing та mobile call flows з інтеграцією CallKit і PushKit для real-time unified communications сценаріїв.
 - Реалізував push notification flows, підтримував APNs environments, валідував payloads і забезпечував end-to-end notification testing на межі backend і mobile.
 - Проводив code review, менторив двох розробників і допомагав підвищувати engineering quality, reliability та delivery practices.
 - Зменшив розмір застосунку з 400 MB до 80 MB і допоміг рухати продукт до повного automated test coverage, release stability та fault-tolerant operation.
