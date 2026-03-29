@@ -35,8 +35,10 @@ Brings a mobile-first engineering background with practical experience in Python
 - Dates: 09/2023 - 05/2025
 - Rebuilt a product in reset phase by introducing scalable architecture, stabilizing execution, and resolving long-standing technical debt across a unified communications iOS codebase.
 - Delivered WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time communication workflows.
+- Implemented AVFoundation-based audio session and media handling to improve stability of call and meeting experiences on iOS and iPadOS.
 - Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
 - Supported backend-mobile integration across REST and WebSocket-based flows, including push notification delivery, APNs environment maintenance, payload validation, and end-to-end notification testing.
+- Implemented deep link routing for external URLs and notification-driven entry points to land users directly in relevant chat, call, and meeting screens.
 - Conducted code reviews, mentored engineers, and improved delivery reliability through testing and CI/CD-oriented validation practices.
 - Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.
 
@@ -47,6 +49,7 @@ Brings a mobile-first engineering background with practical experience in Python
 - Served as lead architect and sole iOS owner for an insurance and employee-benefits SaaS product with 7 white-label client brands.
 - Designed and delivered backend-driven UI for more than 300 dynamically rendered screens and introduced feature flags for safer rollout control and tenant-specific configuration.
 - Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of mobile authentication methods and backend verification requirements.
+- Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
 - Partnered with backend teams on payload contracts, rollout safety, push notification payload design, APNs environment configuration, and end-to-end notification testing.
 - Developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
 - Conducted code reviews, led a 5-person mobile team, and helped keep implementation quality and consistency aligned across the product.

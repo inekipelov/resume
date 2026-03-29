@@ -35,8 +35,10 @@ iOS-розробник із глибоким досвідом створення
 - Продукт: WE UC, enterprise unified communications продукт для iOS та iPadOS
 - Працював над відновленням продукту в reset phase: впровадив масштабовану архітектуру для messaging, calling і real-time communication flows та скоротив накопичений технічний борг.
 - Реалізував WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing та mobile call flows з інтеграцією CallKit і PushKit для real-time unified communications сценаріїв.
+- Реалізував AVFoundation-based audio session та media handling для стабільнішої роботи call і meeting flows на iOS та iPadOS.
 - Інтегрував Face ID і Touch ID через LocalAuthentication та використовував Keychain Services в authentication-sensitive mobile flows.
 - Реалізував push notification flows, підтримував APNs environments, валідував payloads і забезпечував end-to-end notification testing на межі backend і mobile.
+- Реалізував deep link routing для external URLs і notification-driven entry points, щоб користувачі одразу потрапляли в релевантні chat, call та meeting screens.
 - Проводив code review, менторив двох розробників і допомагав підвищувати engineering quality, reliability та delivery practices.
 - Зменшив розмір застосунку з 400 MB до 80 MB і допоміг рухати продукт до повного automated test coverage, release stability та fault-tolerant operation.
 
@@ -45,11 +47,12 @@ iOS-розробник із глибоким досвідом створення
 - Локація: Munich, Bavaria, Germany - Remote
 - Період: 06/2020 - 08/2023
 - App Store: https://apps.apple.com/de/app/xempus/id1510760495
-- Продукт: eVorsroge, insurance and employee-benefits SaaS companion app для iOS та iPadOS, що пізніше поширювався під брендом XEMPUS
+- Продукт: eVorsorge, insurance and employee-benefits SaaS companion app для iOS та iPadOS, що пізніше поширювався під брендом XEMPUS
 - Виконував ролі lead architect, sole iOS owner, team lead і Scrum Master у multi-client mobile продукті.
 - Реалізував white-labeling solution для 7 client brands і backend-driven UI для понад 300 dynamically rendered screens.
 - Впровадив feature flags для безпечнішого rollout control і tenant-specific product configuration.
 - Реалізував 2FA functionality для authentication-sensitive user flows, використовуючи CryptoKit, Face ID, Touch ID, LocalAuthentication і Keychain Services для mobile authentication methods та вимог backend verification.
+- Використовував AVFoundation у camera-driven workflows, включно з capture session integration і media pipeline support для document-focused mobile сценаріїв.
 - Співпрацював із backend-командами над push notification payload design, APNs environment configuration, rollout safety та end-to-end notification testing.
 - Розробив reusable Vision, PhotoKit, ImageIO, C++ та OpenCV modules для document-capture workflows, включно зі shared solutions для Android development, що зменшили час релевантного розпізнавання документів до 0.1 seconds.
 - Готував design documentation, підтримував product prototypes у Sketch і Figma та створював App Store materials для release workflows.

@@ -35,8 +35,10 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 - Producto: WE UC, un producto enterprise unified communications para iOS e iPadOS
 - Participé en la recuperación del producto durante una reset phase, introduciendo una arquitectura escalable para messaging, calling y real-time communication flows mientras resolvía deuda técnica acumulada.
 - Entregué WebSocket-based messaging, VoIP/SIP calling y LiveKit-powered video conferencing para escenarios de real-time unified communications.
+- Implementé AVFoundation-based audio session y media handling para mejorar la estabilidad de call y meeting flows en iOS y iPadOS.
 - Integré Face ID y Touch ID mediante LocalAuthentication y utilicé Keychain Services en mobile flows sensibles a la autenticación.
 - Implementé push notification flows, mantuve entornos APNs, validé payloads y apoyé el end-to-end notification testing entre backend y mobile.
+- Implementé deep link routing para external URLs y notification-driven entry points para llevar al usuario directamente a pantallas relevantes de chat, llamada y reunión.
 - Realicé code reviews, mentoré a dos desarrolladores y ayudé a mejorar engineering quality, reliability y delivery practices.
 - Reduje el tamaño de la aplicación de 400 MB a 80 MB y ayudé a avanzar el producto hacia automated test coverage, release stability y fault-tolerant operation.
 
@@ -45,11 +47,12 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 - Ubicación: Munich, Bavaria, Germany - Remote
 - Período: 06/2020 - 08/2023
 - App Store: https://apps.apple.com/de/app/xempus/id1510760495
-- Producto: eVorsroge, una insurance and employee-benefits SaaS companion app para iOS e iPadOS, posteriormente distribuida bajo la marca XEMPUS
+- Producto: eVorsorge, una insurance and employee-benefits SaaS companion app para iOS e iPadOS, posteriormente distribuida bajo la marca XEMPUS
 - Desempeñé los roles de lead architect, sole iOS owner, team lead y Scrum Master en un producto móvil multi-client.
 - Construí una white-labeling solution para 7 client brands y entregué backend-driven UI para más de 300 dynamically rendered screens.
 - Introduje feature flags para un rollout control más seguro y tenant-specific product configuration.
 - Implementé funcionalidad 2FA para authentication-sensitive user flows utilizando CryptoKit, Face ID, Touch ID, LocalAuthentication y Keychain Services para métodos de autenticación y requisitos de backend verification.
+- Utilicé AVFoundation en camera-driven workflows, incluyendo capture session integration y media pipeline support para escenarios móviles centrados en documentos.
 - Colaboré con equipos backend en push notification payload design, configuración de entornos APNs, rollout safety y end-to-end notification testing.
 - Desarrollé reusable Vision, PhotoKit, ImageIO, C++ y OpenCV modules para document-capture workflows, incluyendo shared solutions para Android development, reduciendo el tiempo de reconocimiento relevante de documentos a 0.1 seconds.
 - Preparé design documentation, mantuve product prototypes en Sketch y Figma y elaboré materiales de App Store para release workflows.
