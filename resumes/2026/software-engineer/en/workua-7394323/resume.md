@@ -1,0 +1,82 @@
+# Nekipelov Roman
+
+Software Engineer (Python, FastAPI)
+
+- Email: nekipelov.roma@gmail.com
+- Telegram: https://t.me/inekipelov
+- Location: Remote
+
+## Links
+
+- GitHub: https://github.com/inekipelov
+- LinkedIn: https://www.linkedin.com/in/inekipelov
+- App Store: https://apps.apple.com/us/developer/roman-nekipelov/id1841486819
+
+## Professional Summary
+
+Software engineer with a mobile-first background and hands-on backend development in Python. Built FastAPI services with webhook ingestion, payload validation, REST endpoints, and data storage in PostgreSQL and Redis. Experienced in cross-team API integration, clean implementation, code reviews, and remote collaboration.
+
+Practical backend work includes real-time market signal processing, scheduled report delivery, and API-driven automation services. Open to a backend-focused role where strong engineering discipline and rapid growth in modern web technologies are required.
+
+## Skills
+
+- Backend: Python, FastAPI, REST APIs, Webhooks
+- Data: PostgreSQL, Redis, SQL, SQLite
+- Engineering: Git, Docker, CI/CD, Playwright
+- Integration: Telegram API, Firebase API, WebSockets, Socket.IO
+- Additional Languages: Swift, Objective-C, C++, JavaScript, PHP, HTML, CSS
+
+## Selected Backend Projects
+
+### TradingView Dashboard | Side Project
+
+- Dates: 07/2025 - Present
+- Built a Python and FastAPI reporting service that ingests TradingView webhooks, aggregates market signals, stores real-time and period data in PostgreSQL and Redis, and exposes a public read-only web report and API.
+- Implemented CI/CD-backed delivery, scheduled Telegram reports, and reporting artifact generation workflows.
+
+### TradingView Notifications | Side Project
+
+- Dates: 04/2025 - Present
+- Built a FastAPI service that receives TradingView webhook payloads, validates and buffers signals, and publishes formatted market notifications to Telegram.
+- Implemented timezone-aware scheduling, chart links, and PostgreSQL and Redis-backed state handling.
+
+## Professional Experience
+
+### Principal iOS Developer | circle.cloud
+
+- Location: Hampshire, England, United Kingdom - Remote
+- Dates: 09/2023 - 05/2025
+- Delivered and maintained API-driven communication flows using REST and WebSockets, including payload validation and end-to-end integration testing.
+- Contributed to architecture and troubleshooting of complex product modules, with focus on reliability and maintainability.
+- Participated in code reviews, mentored engineers, and improved delivery quality through CI/CD-oriented practices.
+
+### Principal iOS Developer | VData Software-Entwicklung GmbH
+
+- Location: Munich, Bavaria, Germany - Remote
+- Dates: 06/2020 - 08/2023
+- Partnered with backend teams on payload contracts, rollout safety, and API-aligned behavior across authentication and notification flows.
+- Designed and delivered backend-driven UI for more than 300 dynamically rendered screens with feature-flag support for controlled rollout.
+- Conducted code reviews and maintained implementation quality across a distributed team.
+
+### iOS Developer | Serialio.com
+
+- Location: Cedar Park, Texas, United States - Remote
+- Dates: 05/2012 - 05/2020
+- Worked on integration-heavy products with cloud-backed and offline workflows, including SQLite-backed data handling and API-connected features.
+- Improved reliability of scanner-driven and browser-integrated workflows across enterprise products.
+
+## Education
+
+### Kharkiv Radio Technical College
+
+- Location: Ukraine
+- Degree: Software Developer
+- Graduation: 2012
+- Distinction: Graduated with High Honors
+
+## Languages
+
+- English: Intermediate+
+- Ukrainian: Native
+- Russian: Native
+- Spanish: Beginner
