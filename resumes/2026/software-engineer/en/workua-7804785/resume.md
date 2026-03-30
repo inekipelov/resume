@@ -14,15 +14,16 @@ Software Engineer (Python Backend)
 
 ## Professional Summary
 
-Software engineer with a mobile-first background and hands-on backend development in Python. Built FastAPI services with webhook ingestion, payload validation, REST endpoints, scheduled processing, and PostgreSQL and Redis storage. Experienced in integration-heavy products, debugging complex workflows, and writing maintainable code in distributed teams.
+Software engineer with a mobile-first background and hands-on backend development in Python. Built FastAPI services with async webhook ingestion, payload validation, REST endpoints, scheduled processing, and PostgreSQL and Redis storage. Experienced in integration-heavy products, debugging complex workflows, and writing maintainable code in distributed teams.
 
-Interested in backend product work in the AI ecosystem, including API-driven services and automation workflows. Brings practical experience with Python services, Docker, Git-based delivery, CI/CD-backed validation, and technical collaboration across product and engineering stakeholders.
+Interested in backend product work in the AI ecosystem, including API-driven services and automation workflows. Brings practical experience with Python services, asyncio, OpenRouter and OpenAI SDK integrations, Docker, Git-based delivery, CI/CD-backed validation, and technical collaboration across product and engineering stakeholders.
 
 ## Skills
 
-- Backend: Python, FastAPI, REST APIs, Webhooks
+- Backend: Python, FastAPI, asyncio, REST APIs, Webhooks
 - Data: PostgreSQL, Redis, SQL, SQLite
-- Delivery and Tooling: Git, Docker, CI/CD, Playwright
+- Delivery and Tooling: Git, Docker, CI/CD, Playwright, PyTest
+- AI Integration: OpenRouter, OpenAI SDK
 - Integration: Telegram API, Firebase API, WebSockets, Socket.IO
 - Additional Languages: Swift, Objective-C, C++, JavaScript, PHP, HTML, CSS
 
@@ -31,14 +32,14 @@ Interested in backend product work in the AI ecosystem, including API-driven ser
 ### TradingView Dashboard | Side Project
 
 - Dates: 07/2025 - Present
-- Built a Python and FastAPI reporting service that ingests TradingView webhooks, aggregates market signals, stores real-time and period data in PostgreSQL and Redis, and exposes a public read-only web report and API.
-- Implemented reporting artifact generation workflows with Playwright and delivered scheduled Telegram reports through CI/CD-supported delivery.
+- Built a Python and FastAPI reporting service with async webhook ingestion, aggregated market signals, stored real-time and period data in PostgreSQL and Redis, and exposed a public read-only web report and API.
+- Implemented reporting artifact generation workflows with Playwright and generated short highlights via OpenRouter and OpenAI SDK using Responses API-compatible calls, then delivered scheduled Telegram reports through CI/CD-supported delivery.
 
 ### TradingView Notifications | Side Project
 
 - Dates: 04/2025 - Present
-- Built a FastAPI service that receives TradingView webhook payloads, validates and buffers signals, and publishes formatted market notifications to Telegram.
-- Implemented timezone-aware scheduling, chart links, and PostgreSQL and Redis-backed state handling.
+- Built a FastAPI service that receives TradingView webhook payloads, validates and asynchronously buffers signals, and publishes formatted market notifications to Telegram.
+- Implemented timezone-aware scheduling, chart links, and PostgreSQL and Redis-backed state handling with PyTest-backed validation in CI/CD workflows.
 
 ## Professional Experience
 
