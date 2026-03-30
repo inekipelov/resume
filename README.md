@@ -11,6 +11,7 @@
 - 2026 iOS Developer (ES)
 - 2026 iOS Developer (UKR)
 - 2026 Mobile Project Manager
+- 2026 Mobile Project Manager (EN, Work.ua 7862826)
 - 2026 Software Engineer
 - 2026 Software Engineer (EN, Work.ua 7394323)
 
