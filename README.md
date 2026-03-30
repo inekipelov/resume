@@ -13,6 +13,7 @@
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
 - 2026 Software Engineer (EN, Work.ua 7394323)
+- 2026 Software Engineer (UKR, Work.ua 7405246)
 
 ## Overview
 
