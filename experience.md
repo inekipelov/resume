@@ -29,6 +29,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Joined during a critical reset phase when both the WE UC codebase and delivery process required rebuilding.
 - Introduced scalable architecture for messaging, calling, and real-time communication flows, stabilized execution, and resolved long-standing technical debt across the iOS codebase.
 - Delivered messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time unified communications workflows.
+- Built a macOS proof-of-concept application to validate PJSIP porting feasibility across Apple platform requirements.
 - Implemented AVFoundation-based audio session and media handling to support stable call and meeting experiences across iOS and iPadOS.
 - Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
 - Delivered push notification flows, configured and maintained APNs environments, and validated notification payloads.
@@ -45,10 +46,12 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 06/2020 - 08/2023
 - Location: Munich, Bavaria, Germany - Remote
 - App Store: https://apps.apple.com/de/app/xempus/id1510760495
-- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, AVFoundation, REST APIs, Core Data, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, GCD, OpenCV, Firebase API, Firebase Crashlytics, Git, Gitflow
+- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, AVFoundation, REST APIs, Core Data, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, PassKit, GCD, OpenCV, Firebase API, Firebase Crashlytics, Git, Gitflow
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsorge, an insurance and employee-benefits SaaS companion app for iOS and iPadOS later acquired and redistributed under the XEMPUS brand.
 - Developed a white-labeling solution that supported 7 client brands.
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
+- Led R&D work for PassKit adoption to validate wallet-pass integration scenarios for product needs.
+- Developed a command-line tool for generating `.pkpass` bundles for internal engineering workflows and QA testing needs.
 - Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit while aligning mobile behavior with backend verification requirements.
 - Integrated Face ID and Touch ID through LocalAuthentication and used Keychain Services for secure handling of authentication data in authentication-sensitive user flows.
 - Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
@@ -187,6 +190,14 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Technologies: Swift, SwiftUI, Combine, CryptoKit
 - Used BitcoinDevKit with Taproot descriptors and Electrum-based testnet synchronization for wallet loading, fee estimation, signing, and transaction broadcasting.
 - Implemented wallet state management, mnemonic persistence, pull-to-refresh synchronization, testnet address copy flow, and send-result presentation with transaction details.
+
+### OpenEmu
+
+- Type: Open Source Contribution
+- Dates: 2021
+- Repository: https://github.com/OpenEmu/OpenEmu
+- Contributed to gamepad support by adding automatic control mapping for the Gamesir M2 MFi Bluetooth controller.
+- Merged PR: https://github.com/OpenEmu/OpenEmu/pull/4427
 
 ## Education
 
