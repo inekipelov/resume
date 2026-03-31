@@ -196,7 +196,8 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Type: Open Source Contribution
 - Dates: 2021
 - Repository: https://github.com/OpenEmu/OpenEmu
-- Contributed to gamepad support by adding automatic control mapping for the Gamesir M2 MFi Bluetooth controller.
+- Contributed to gamepad compatibility by adding automatic controller mapping data for the Gamesir M2.
+- Worked with controller identification metadata (Vendor ID/Product ID) and input-mapping configuration for emulator workflows on macOS.
 - Merged PR: https://github.com/OpenEmu/OpenEmu/pull/4427
 
 ## Education
