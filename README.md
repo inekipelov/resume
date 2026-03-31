@@ -14,6 +14,7 @@
 - 2026 Software Engineer
 - 2026 Software Engineer (EN, Work.ua 3671922)
 - 2026 Software Engineer (EN, Work.ua 7394323)
+- 2026 Software Engineer (EN, MacPaw Senior Research Engineer macOS)
 
 ## Overview
 
