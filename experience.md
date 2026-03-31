@@ -11,6 +11,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 ## Core Skills Inventory
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
+- Python and Async Stack: asyncio, FastAPI
 - Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, AVFoundation, GCD
 - Realtime, Integration, and Delivery: VoIP/SIP, LiveKit, APNs, REST APIs, WebSockets, Socket.IO, BLE, MFi, backend-driven UI, Telegram API, Firebase API
 - Data and Storage: SQLite, PostgreSQL, SQL, Redis
