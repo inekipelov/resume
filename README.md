@@ -8,6 +8,8 @@
 ## Current Resumes
 
 - 2026 iOS Developer (EN)
+- 2026 iOS Developer (EN, Djinni 812414)
+- 2026 iOS Developer (EN, Djinni 814934)
 - 2026 iOS Developer (ES)
 - 2026 iOS Developer (UKR)
 - 2026 Mobile Project Manager
