@@ -3,6 +3,12 @@
 - Full Name: Roman Nekipelov
 - Default Professional Name: Nekipelov Roman
 
+## Name Variants
+
+- English: Roman Nekipelov
+- Russian: Роман Некипелов
+- Ukrainian: Роман Нєкіпєлов
+
 ## Contact
 
 - Email: nekipelov.roma@gmail.com

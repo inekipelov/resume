@@ -22,6 +22,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 
 - Lenguajes: Swift, Objective-C, C++, JavaScript
 - Plataformas y frameworks Apple: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- Patrones de diseno UI: MVC, MVC+Coordinator, MVP, MVVM, MVVM+Coordinator, MVx, UDF
 - Realtime e integración: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Calidad y delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Tecnologías relacionadas: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -90,7 +91,7 @@ La experiencia incluye modernización de arquitectura, implementación de real-t
 
 - Período: 08/2023
 - Desarrollé un prototipo de wallet Bitcoin testnet en SwiftUI para iOS con wallet creation, balance sync, address generation y transaction sending flows.
-- Utilicé BitcoinDevKit, Electrum-based synchronization, Combine y lógica respaldada por CryptoKit para implementar wallet loading, fee estimation, signing y transaction broadcasting.
+- Utilicé Electrum-based synchronization, Combine y lógica respaldada por CryptoKit para implementar wallet loading, fee estimation, signing y transaction broadcasting.
 
 ### TradingView Dashboard | Side Project
 
