@@ -54,6 +54,7 @@ Experience includes architecture modernization, real-time communication features
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
 - Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of mobile authentication methods and backend verification requirements.
 - Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
+- Worked with MVVM+C (Coordinator) UI architecture in iOS feature and navigation flows.
 - Worked with Swift Package Manager in iOS dependency integration and project maintenance workflows.
 - Partnered with backend teams on push notification payload design, APNs environment configuration, rollout safety, and end-to-end notification testing.
 - Developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.

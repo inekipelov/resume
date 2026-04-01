@@ -21,7 +21,7 @@ Experience includes secure authentication flows, backend-mobile collaboration ac
 ## Skills
 
 - Languages: Swift, Objective-C, C++, JavaScript
-- iOS Development: iOS, iPadOS, UIKit, SwiftUI, Combine, Core Data, SwiftData, Swift Concurrency, CoreGraphics, AVFoundation
+- iOS Development: iOS, iPadOS, UIKit, SwiftUI, Combine, MVVM+C (Coordinator), Core Data, SwiftData, Swift Concurrency, CoreGraphics, AVFoundation
 - Security and Integration: CryptoKit, LocalAuthentication, Keychain Services, REST APIs, WebSockets, Socket.IO, APNs, backend-driven UI
 - Quality and Delivery: XCTest, Swift Testing, Swift Package Manager, Git, Gitflow, CI/CD, Firebase Crashlytics, App Store release workflows
 - UI and Collaboration: Figma, Sketch, Photoshop
@@ -52,6 +52,7 @@ Experience includes secure authentication flows, backend-mobile collaboration ac
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for a multi-client mobile product.
 - Built a white-labeling solution for 7 client brands and delivered backend-driven UI for more than 300 dynamically rendered screens.
 - Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of secure mobile behavior and backend verification requirements.
+- Worked with MVVM+C (Coordinator) UI architecture in iOS feature and navigation flows.
 - Worked with Swift Package Manager in iOS dependency integration and project maintenance workflows.
 - Partnered with backend teams on push notification payload design, APNs environment configuration, rollout safety, and end-to-end notification testing.
 - Developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.

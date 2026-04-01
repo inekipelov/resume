@@ -55,6 +55,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Integrated Face ID and Touch ID through LocalAuthentication and used Keychain Services for secure handling of authentication data in authentication-sensitive user flows.
 - Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
 - Designed and delivered BDUI (backend-driven UI) for more than 300 dynamically rendered screens.
+- Worked with MVVM+C (Coordinator) UI architecture in iOS feature and navigation flows.
 - Worked with Swift Package Manager in iOS dependency integration and project maintenance workflows.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
 - Partnered with backend teams on push notification payload design, rollout safety, APNs environment configuration, and end-to-end notification testing.
