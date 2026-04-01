@@ -8,12 +8,17 @@
 ## Current Resumes
 
 - 2026 iOS Developer (EN)
+- 2026 iOS Developer (EN, Djinni 816057)
 - 2026 iOS Developer (ES)
 - 2026 iOS Developer (UKR)
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
+- 2026 Python Developer
+- 2026 Software Engineer (EN, Work.ua 3671922)
 - 2026 Software Engineer (EN, Work.ua 7394323)
 - 2026 Software Engineer (UKR, Work.ua 7405246)
+- 2026 Software Engineer (EN, Work.ua 6033030)
+- 2026 Software Engineer (EN, Work.ua 7804785)
 
 ## Overview
 
