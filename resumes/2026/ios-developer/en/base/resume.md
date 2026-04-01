@@ -90,7 +90,7 @@ Experience includes architecture modernization, real-time communication features
 
 - Dates: 08/2023
 - Built a SwiftUI iOS testnet Bitcoin wallet prototype with wallet creation, balance sync, address generation, and transaction sending flows.
-- Used BitcoinDevKit, Electrum-based synchronization, Combine, and CryptoKit-backed wallet logic to implement wallet loading, fee estimation, signing, and transaction broadcasting.
+- Used Electrum-based synchronization, Combine, and CryptoKit-backed wallet logic to implement wallet loading, fee estimation, signing, and transaction broadcasting.
 
 ### TradingView Dashboard | Side Project
 

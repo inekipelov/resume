@@ -90,7 +90,7 @@ iOS-розробник із глибоким досвідом створення
 
 - Період: 08/2023
 - Розробив SwiftUI iOS testnet Bitcoin wallet prototype з wallet creation, balance sync, address generation та transaction sending flows.
-- Використовував BitcoinDevKit, Electrum-based synchronization, Combine і CryptoKit-backed wallet logic для wallet loading, fee estimation, signing і transaction broadcasting.
+- Використовував Electrum-based synchronization, Combine і CryptoKit-backed wallet logic для wallet loading, fee estimation, signing і transaction broadcasting.
 
 ### TradingView Dashboard | Side Project
 

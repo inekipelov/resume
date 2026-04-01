@@ -186,7 +186,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 08/2023
 - Built a SwiftUI iOS testnet Bitcoin wallet prototype with wallet creation, balance sync, address generation, and transaction sending flows.
 - Technologies: Swift, SwiftUI, Combine, CryptoKit
-- Used BitcoinDevKit with Taproot descriptors and Electrum-based testnet synchronization for wallet loading, fee estimation, signing, and transaction broadcasting.
+- Used Taproot descriptors and Electrum-based testnet synchronization for wallet loading, fee estimation, signing, and transaction broadcasting.
 - Implemented wallet state management, mnemonic persistence, pull-to-refresh synchronization, testnet address copy flow, and send-result presentation with transaction details.
 
 ## Education
