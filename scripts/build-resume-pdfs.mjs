@@ -4,7 +4,7 @@ import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { promisify } from "node:util";
 
 import fg from "fast-glob";
@@ -42,6 +42,29 @@ const execFileAsync = promisify(execFile);
 
 function toPosixPath(filePath) {
   return filePath.replaceAll(path.sep, "/");
+}
+
+export function parseCliArgs(argv) {
+  const options = {
+    resumePath: null,
+  };
+
+  for (let index = 2; index < argv.length; index += 1) {
+    const arg = argv[index];
+    if (arg === "--resume") {
+      const value = argv[index + 1];
+      if (!value) {
+        throw new Error('Missing value for "--resume".');
+      }
+      options.resumePath = toPosixPath(value);
+      index += 1;
+      continue;
+    }
+
+    throw new Error(`Unknown argument "${arg}".`);
+  }
+
+  return options;
 }
 
 function parseResumePath(relativePath) {
@@ -114,6 +137,20 @@ function resolveOutputNames(parsedEntries) {
   return entriesWithNames.sort((a, b) => a.sourcePath.localeCompare(b.sourcePath));
 }
 
+export function resolveSelectedEntries(entries, options) {
+  if (!options.resumePath) {
+    return entries;
+  }
+
+  const requestedPath = toPosixPath(options.resumePath);
+  const selectedEntries = entries.filter((entry) => entry.sourcePath === requestedPath);
+  if (selectedEntries.length === 0) {
+    throw new Error(`Requested resume path was not found: "${requestedPath}".`);
+  }
+
+  return selectedEntries;
+}
+
 function buildHtmlDocument({ title, bodyHtml, cssText }) {
   return `<!doctype html>
 <html lang="en">
@@ -155,7 +192,7 @@ async function resolveChromeExecutablePath() {
   );
 }
 
-async function loadResumes(rootDir) {
+async function loadResumes(rootDir, options) {
   const resumePaths = await fg(RESUME_GLOB, {
     cwd: rootDir,
     onlyFiles: true,
@@ -167,7 +204,8 @@ async function loadResumes(rootDir) {
   }
 
   const parsedEntries = resumePaths.map((relativePath) => parseResumePath(relativePath));
-  return resolveOutputNames(parsedEntries);
+  const entries = resolveOutputNames(parsedEntries);
+  return resolveSelectedEntries(entries, options);
 }
 
 async function renderPdfFiles({ rootDir, entries, cssText }) {
@@ -241,11 +279,12 @@ async function writeManifest({ rootDir, entries }) {
   );
 }
 
-async function main() {
+async function main(argv = process.argv) {
   const rootDir = process.cwd();
+  const options = parseCliArgs(argv);
   const cssPath = path.join(rootDir, CSS_PATH);
   const cssText = await fs.readFile(cssPath, "utf8");
-  const entries = await loadResumes(rootDir);
+  const entries = await loadResumes(rootDir, options);
 
   await renderPdfFiles({ rootDir, entries, cssText });
   await writeManifest({ rootDir, entries });
@@ -254,7 +293,12 @@ async function main() {
   console.log(`Manifest written to ${OUTPUT_MANIFEST_PATH}`);
 }
 
-main().catch((error) => {
-  console.error(error instanceof Error ? error.message : String(error));
-  process.exitCode = 1;
-});
+const isEntrypoint =
+  process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isEntrypoint) {
+  main().catch((error) => {
+    console.error(error instanceof Error ? error.message : String(error));
+    process.exitCode = 1;
+  });
+}
