@@ -11,6 +11,7 @@
 - 2026 iOS Developer (EN, Djinni 816057)
 - 2026 iOS Developer (ES)
 - 2026 iOS Developer (UKR)
+- 2026 iOS Developer (UKR, Work.ua 7879002)
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
 - 2026 Python Developer
