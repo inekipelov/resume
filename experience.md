@@ -11,11 +11,12 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 ## Core Skills Inventory
 
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
+- Python and Async Stack: asyncio, FastAPI
 - Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, AVFoundation, GCD
 - Realtime, Integration, and Delivery: VoIP/SIP, LiveKit, APNs, REST APIs, WebSockets, Socket.IO, BLE, MFi, backend-driven UI, Telegram API, Firebase API
 - Data and Storage: SQLite, PostgreSQL, SQL, Redis
-- Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, XCTest, Swift Testing, Firebase Crashlytics, Photoshop, Sketch, Figma
-- Adjacent Technologies: OpenCV, jQuery, OpenRouter, Codex
+- Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, PyTest, XCTest, Swift Testing, Firebase Crashlytics, Photoshop, Sketch, Figma
+- Adjacent Technologies: OpenCV, jQuery, OpenRouter, OpenAI SDK, Codex
 
 ## Work Experience
 
@@ -163,20 +164,20 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Type: Side Project
 - Dates: 07/2025 - Present
 - Built a TradingView-driven market dashboard and reporting service for a fixed universe of symbols.
-- Technologies: Python, FastAPI, PostgreSQL, Redis, Playwright, OpenRouter, VS Code
-- Implemented webhook ingestion, signal aggregation, and storage for real-time snapshots and daily or weekly period data.
-- Used CI/CD workflows to support automated validation and delivery of dashboard and reporting changes.
+- Technologies: Python, FastAPI, asyncio, PostgreSQL, Redis, Playwright, PyTest, OpenRouter, OpenAI SDK, VS Code
+- Implemented async webhook ingestion, signal aggregation, and storage for real-time snapshots and daily or weekly period data.
+- Used PyTest and CI/CD workflows to support automated validation and delivery of dashboard and reporting changes.
 - Delivered a public read-only web report and API for dashboard consumption, plus scheduled Telegram market reports via the Telegram API.
-- Rendered report artifacts from Markdown to PNG with Playwright and generated short highlights via OpenRouter.
+- Rendered report artifacts from Markdown to PNG with Playwright and generated short highlights via OpenRouter and OpenAI SDK using Responses API-compatible calls.
 
 ### TradingView Notifications
 
 - Type: Side Project
 - Dates: 04/2025 - Present
 - Built a FastAPI service that receives TradingView webhook payloads and publishes formatted market notifications to Telegram.
-- Technologies: Python, FastAPI, Telegram API, PostgreSQL, Redis, VS Code
-- Implemented payload validation, webhook ingestion, and calendar-based buffering for daily and weekly signals.
-- Used CI/CD workflows to support automated validation and delivery of notification service updates.
+- Technologies: Python, FastAPI, asyncio, PyTest, Telegram API, PostgreSQL, Redis, VS Code
+- Implemented payload validation, async webhook ingestion, and calendar-based buffering for daily and weekly signals.
+- Used PyTest and CI/CD workflows to support automated validation and delivery of notification service updates.
 - Delivered timezone-aware publication scheduling, chart links, and Markdown-formatted Telegram messages via the Telegram API.
 
 ### Bitcoin Wallet
