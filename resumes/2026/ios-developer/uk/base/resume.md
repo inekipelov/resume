@@ -22,6 +22,7 @@ iOS-розробник із глибоким досвідом створення
 
 - Мови: Swift, Objective-C, C++, JavaScript
 - Apple платформи та фреймворки: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- UI design patterns: MVC, MVC+Coordinator, MVP, MVVM, MVVM+Coordinator, MVx, UDF
 - Realtime та інтеграції: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Якість та delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Суміжні технології: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
@@ -90,7 +91,7 @@ iOS-розробник із глибоким досвідом створення
 
 - Період: 08/2023
 - Розробив SwiftUI iOS testnet Bitcoin wallet prototype з wallet creation, balance sync, address generation та transaction sending flows.
-- Використовував BitcoinDevKit, Electrum-based synchronization, Combine і CryptoKit-backed wallet logic для wallet loading, fee estimation, signing і transaction broadcasting.
+- Використовував Electrum-based synchronization, Combine і CryptoKit-backed wallet logic для wallet loading, fee estimation, signing і transaction broadcasting.
 
 ### TradingView Dashboard | Side Project
 
