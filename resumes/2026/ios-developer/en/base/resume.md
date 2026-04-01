@@ -22,8 +22,9 @@ Experience includes architecture modernization, real-time communication features
 
 - Languages: Swift, Objective-C, C++, JavaScript
 - Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- UI Design Patterns: MVC, MVC+Coordinator, MVP, MVVM, MVVM+Coordinator, MVx, UDF
 - Realtime and Integration: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
-- Quality and Delivery: XCTest, Swift Testing, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
+- Quality and Delivery: XCTest, Swift Testing, Swift Package Manager, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Adjacent Technologies: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
 
 ## Professional Experience
@@ -38,6 +39,7 @@ Experience includes architecture modernization, real-time communication features
 - Implemented AVFoundation-based audio session and media handling to improve stability of call and meeting experiences on iOS and iPadOS.
 - Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
 - Implemented push notification flows, maintained APNs environments, validated payloads, and supported end-to-end notification testing across backend and mobile boundaries.
+- Worked with Swift Package Manager as part of modern iOS dependency and module integration workflows.
 - Implemented deep link routing for external URLs and notification-driven entry points to land users directly in relevant chat, call, and meeting screens.
 - Conducted code reviews, mentored two developers, and helped improve engineering quality, reliability, and delivery practices.
 - Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.
@@ -53,6 +55,8 @@ Experience includes architecture modernization, real-time communication features
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
 - Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of mobile authentication methods and backend verification requirements.
 - Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
+- Worked with MVVM+C (Coordinator) UI architecture in iOS feature and navigation flows.
+- Worked with Swift Package Manager in iOS dependency integration and project maintenance workflows.
 - Partnered with backend teams on push notification payload design, APNs environment configuration, rollout safety, and end-to-end notification testing.
 - Developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
@@ -83,14 +87,14 @@ Experience includes architecture modernization, real-time communication features
 - Dates: 08/2025 - Present
 - App Store: https://apps.apple.com/de/app/trackfinder-app/id6752876557
 - Built an iOS 17+ SwiftUI app for finding the same music track across multiple streaming sources from a shared or pasted URL.
-- Used SwiftUI, SwiftData, UIKit Share Extension, Observation, Swift Concurrency, and REST APIs to implement share flow support, track lookup history, and configurable multi-source search.
+- Used SwiftUI, SwiftData, UIKit Share Extension, Observation, Swift Concurrency, REST APIs, and Swift Package Manager to implement share flow support, track lookup history, and configurable multi-source search.
 - Integrated the Song.link API and the iTunes Lookup API for cross-platform track resolution and music app metadata.
 
 ### Bitcoin Wallet | Side Project
 
 - Dates: 08/2023
 - Built a SwiftUI iOS testnet Bitcoin wallet prototype with wallet creation, balance sync, address generation, and transaction sending flows.
-- Used BitcoinDevKit, Electrum-based synchronization, Combine, and CryptoKit-backed wallet logic to implement wallet loading, fee estimation, signing, and transaction broadcasting.
+- Used Electrum-based synchronization, Combine, CryptoKit-backed wallet logic, and Swift Package Manager in wallet loading, fee estimation, signing, and transaction broadcasting workflows.
 
 ### TradingView Dashboard | Side Project
 

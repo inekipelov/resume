@@ -13,9 +13,10 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
 - Python and Async Stack: asyncio, FastAPI
 - Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, AVFoundation, GCD
+- UI Design Patterns: MVC, MVC+Coordinator, MVP, MVVM, MVVM+Coordinator, MVx, UDF
 - Realtime, Integration, and Delivery: VoIP/SIP, LiveKit, APNs, REST APIs, WebSockets, Socket.IO, BLE, MFi, backend-driven UI, Telegram API, Firebase API
 - Data and Storage: SQLite, PostgreSQL, SQL, Redis
-- Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, PyTest, XCTest, Swift Testing, Firebase Crashlytics, Photoshop, Sketch, Figma
+- Development Tooling: Xcode, VS Code, Git, Gitflow, SVN, Docker, CI/CD, Playwright, PyTest, XCTest, Swift Testing, Swift Package Manager, Firebase Crashlytics, Photoshop, Sketch, Figma
 - Adjacent Technologies: OpenCV, jQuery, OpenRouter, OpenAI SDK, Codex
 
 ## Work Experience
@@ -26,7 +27,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 09/2023 - 05/2025
 - Location: Hampshire, England, United Kingdom - Remote
 - Product: WE UC, an enterprise unified communications product for iOS and iPadOS
-- Technologies: Swift, Objective-C, UIKit, Combine, SwiftUI, Core Data, SwiftData, Swift Concurrency, WebSockets, Socket.IO, LocalAuthentication, Keychain Services, CallKit, PushKit, AVFoundation, XCTest, Swift Testing, Git, Gitflow
+- Technologies: Swift, Objective-C, UIKit, Combine, SwiftUI, Core Data, SwiftData, Swift Concurrency, WebSockets, Socket.IO, LocalAuthentication, Keychain Services, CallKit, PushKit, AVFoundation, XCTest, Swift Testing, Swift Package Manager, Git, Gitflow
 - Joined during a critical reset phase when both the WE UC codebase and delivery process required rebuilding.
 - Introduced scalable architecture for messaging, calling, and real-time communication flows, stabilized execution, and resolved long-standing technical debt across the iOS codebase.
 - Delivered messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time unified communications workflows.
@@ -34,6 +35,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
 - Delivered push notification flows, configured and maintained APNs environments, and validated notification payloads.
 - Supported backend-mobile integration boundaries across REST and WebSocket-based messaging and calling flows, including testing of end-to-end notification behavior.
+- Worked with Swift Package Manager as part of modern iOS dependency and module integration workflows.
 - Implemented deep link routing for external URLs and notification-driven entry points so users could land directly in relevant chat, call, and meeting screens.
 - Conducted code reviews and helped raise implementation quality, consistency, and maintainability across the team.
 - Worked with CI/CD practices to improve validation, delivery reliability, and release stability across the product lifecycle.
@@ -46,7 +48,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 06/2020 - 08/2023
 - Location: Munich, Bavaria, Germany - Remote
 - App Store: https://apps.apple.com/de/app/xempus/id1510760495
-- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, AVFoundation, REST APIs, Core Data, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, GCD, OpenCV, Firebase API, Firebase Crashlytics, Git, Gitflow
+- Technologies: Objective-C, Swift, C++, UIKit, SwiftUI, AVFoundation, REST APIs, Core Data, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, GCD, OpenCV, Firebase API, Firebase Crashlytics, Swift Package Manager, Git, Gitflow
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for eVorsorge, an insurance and employee-benefits SaaS companion app for iOS and iPadOS later acquired and redistributed under the XEMPUS brand.
 - Developed a white-labeling solution that supported 7 client brands.
 - Introduced feature flags for safer rollout control and tenant-specific product configuration.
@@ -54,6 +56,8 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Integrated Face ID and Touch ID through LocalAuthentication and used Keychain Services for secure handling of authentication data in authentication-sensitive user flows.
 - Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
 - Designed and delivered BDUI (backend-driven UI) for more than 300 dynamically rendered screens.
+- Worked with MVVM+C (Coordinator) UI architecture in iOS feature and navigation flows.
+- Worked with Swift Package Manager in iOS dependency integration and project maintenance workflows.
 - Produced design documentation, maintained product prototypes in Sketch and Figma, and prepared App Store materials for release workflows.
 - Partnered with backend teams on push notification payload design, rollout safety, APNs environment configuration, and end-to-end notification testing.
 - Conducted code reviews and helped maintain implementation quality and consistency across the mobile team.
@@ -153,9 +157,10 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 08/2025 - Present
 - App Store: https://apps.apple.com/de/app/trackfinder-app/id6752876557
 - Built an iOS 17+ SwiftUI app for finding the same music track across multiple streaming sources from a shared or pasted URL.
-- Technologies: Swift 6, SwiftUI, SwiftData, UIKit Share Extension, Observation, Swift Concurrency, REST APIs, Swift Testing, Xcode, VS Code
+- Technologies: Swift 6, SwiftUI, SwiftData, UIKit Share Extension, Observation, Swift Concurrency, REST APIs, Swift Testing, Swift Package Manager, Xcode, VS Code
 - Integrated the Song.link API for cross-platform track resolution and the iTunes Lookup API for music app metadata.
 - Implemented share flow support and track lookup history persistence with SwiftData.
+- Used Swift Package Manager in the project setup and dependency management workflow.
 - Used CI/CD workflows to support validation and delivery of ongoing app updates.
 - Delivered a multi-source music search experience with configurable app visibility and ordering.
 
@@ -185,8 +190,9 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Type: Side Project
 - Dates: 08/2023
 - Built a SwiftUI iOS testnet Bitcoin wallet prototype with wallet creation, balance sync, address generation, and transaction sending flows.
-- Technologies: Swift, SwiftUI, Combine, CryptoKit
-- Used BitcoinDevKit with Taproot descriptors and Electrum-based testnet synchronization for wallet loading, fee estimation, signing, and transaction broadcasting.
+- Technologies: Swift, SwiftUI, Combine, CryptoKit, Swift Package Manager
+- Used Taproot descriptors and Electrum-based testnet synchronization for wallet loading, fee estimation, signing, and transaction broadcasting.
+- Used Swift Package Manager in the project dependency workflow.
 - Implemented wallet state management, mnemonic persistence, pull-to-refresh synchronization, testnet address copy flow, and send-result presentation with transaction details.
 
 ## Education
