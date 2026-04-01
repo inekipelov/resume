@@ -1,6 +1,6 @@
 # Nekipelov Roman
 
-iOS Engineer
+Senior iOS Developer
 
 - Email: nekipelov.roma@gmail.com
 - Telegram: https://t.me/inekipelov
@@ -14,18 +14,18 @@ iOS Engineer
 
 ## Professional Summary
 
-iOS engineer with deep experience building and shipping iOS and iPadOS products across unified communications, insurance, hardware-integrated workflow systems, and App Store applications. Background includes Swift, Objective-C, UIKit, SwiftUI, Core Data, SwiftData, testing, CI/CD, and technical leadership.
+Senior iOS developer with deep experience building and shipping iOS and iPadOS products across unified communications, insurance, hardware-integrated enterprise workflows, and App Store applications. Strong hands-on background in Swift, the iOS SDK, UIKit, SwiftUI, Combine, XCTest, Swift Testing, Swift Package Manager, API integration, and technically complex mobile delivery.
 
-Experience includes architecture modernization, real-time communication features, push notification delivery, backend-mobile integration, and hardware connectivity across BLE, MFi, barcode, RFID, and NFC workflows. Has owned complex mobile products end to end, improved delivery reliability, and mentored engineers while maintaining product quality and codebase stability.
+Experience includes secure authentication flows, backend-mobile collaboration across REST and WebSocket services, performance-oriented optimization, App Store release support, and long-term maintenance of production applications. Has led architecture work, delivered reusable mobile modules, improved code quality and release stability, and mentored engineers in remote product teams.
 
 ## Skills
 
 - Languages: Swift, Objective-C, C++, JavaScript
-- Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- iOS Development: iOS, iPadOS, UIKit, SwiftUI, Combine, Core Data, SwiftData, Swift Concurrency, CoreGraphics, AVFoundation
 - UI Design Patterns: MVC, MVC+Coordinator, MVP, MVVM, MVVM+Coordinator, MVx, UDF
-- Realtime and Integration: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
-- Quality and Delivery: XCTest, Swift Testing, Swift Package Manager, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
-- Adjacent Technologies: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma
+- Security and Integration: CryptoKit, LocalAuthentication, Keychain Services, REST APIs, WebSockets, Socket.IO, APNs, backend-driven UI
+- Quality and Delivery: XCTest, Swift Testing, Swift Package Manager, Git, Gitflow, CI/CD, Firebase Crashlytics, App Store release workflows
+- UI and Collaboration: Figma, Sketch, Photoshop
 
 ## Professional Experience
 
@@ -35,14 +35,14 @@ Experience includes architecture modernization, real-time communication features
 - Dates: 09/2023 - 05/2025
 - Product: WE UC, an enterprise unified communications product for iOS and iPadOS
 - Rebuilt a product in reset phase by introducing scalable architecture for messaging, calling, and real-time communication flows while resolving long-standing technical debt.
-- Delivered WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time unified communications workflows.
-- Implemented AVFoundation-based audio session and media handling to improve stability of call and meeting experiences on iOS and iPadOS.
+- Delivered high-performance Swift and Objective-C mobile flows for messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and real-time communication on iOS and iPadOS.
 - Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
 - Implemented push notification flows, maintained APNs environments, validated payloads, and supported end-to-end notification testing across backend and mobile boundaries.
+- Supported backend-mobile integration boundaries across REST and WebSocket-based messaging and calling flows.
 - Worked with Swift Package Manager as part of modern iOS dependency and module integration workflows.
-- Implemented deep link routing for external URLs and notification-driven entry points to land users directly in relevant chat, call, and meeting screens.
+- Worked with XCTest, Swift Testing, and CI/CD practices to improve validation, delivery reliability, and release stability across the product lifecycle.
 - Conducted code reviews, mentored two developers, and helped improve engineering quality, reliability, and delivery practices.
-- Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.
+- Reduced the application size from 400 MB to 80 MB and helped move the product toward broader automated test coverage, release stability, and fault-tolerant operation.
 
 ### Principal iOS Developer | VData Software-Entwicklung GmbH
 
@@ -52,9 +52,7 @@ Experience includes architecture modernization, real-time communication features
 - Product: eVorsorge, an insurance and employee-benefits SaaS companion app for iOS and iPadOS, later redistributed under the XEMPUS brand
 - Served as lead architect, sole iOS owner, team lead, and Scrum Master for a multi-client mobile product.
 - Built a white-labeling solution for 7 client brands and delivered backend-driven UI for more than 300 dynamically rendered screens.
-- Introduced feature flags for safer rollout control and tenant-specific product configuration.
-- Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of mobile authentication methods and backend verification requirements.
-- Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
+- Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of secure mobile behavior and backend verification requirements.
 - Worked with MVVM+C (Coordinator) UI architecture in iOS feature and navigation flows.
 - Worked with Swift Package Manager in iOS dependency integration and project maintenance workflows.
 - Partnered with backend teams on push notification payload design, APNs environment configuration, rollout safety, and end-to-end notification testing.
@@ -66,19 +64,10 @@ Experience includes architecture modernization, real-time communication features
 - Location: Cedar Park, Texas, United States - Remote
 - Dates: 05/2012 - 05/2020
 - Worked across a portfolio of enterprise iOS and iPadOS products used in sales, inventory, browser, inspection, and utility workflows.
-- Used Keychain Services in security-sensitive mobile flows across hardware-integrated iOS products.
-- Supported integrations across 16+ device and scanner families for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
-- Built SerialioDeviceManager, an internal framework that encapsulated business logic and reusable device-integration workflows for WiSnap, MFi, and BLE hardware used across multiple company products.
+- Built and maintained reusable hardware-integration workflows for BLE, MFi, barcode, RFID, and NFC products across multiple company applications.
 - Improved and maintained App Store products including Cloud-In-Hand Mobile Order, Cloud-In-Hand Mobile Grid, iScanBrowser, SerialMagic Keys, RS3 NFC Setup, Inspect RRC, and yACK FAST.
 - Delivered browser, scanning, keyboard extension, BLE, RFID, and NFC workflows using UIKit, WebKit, JavaScriptCore, CoreBluetooth, and ExternalAccessory.
 - Worked with both SVN and Git across legacy and actively evolving codebases, including local persistence workflows backed by SQLite.
-- Contributed as a designer for app icons, application visuals, and App Store marketing materials using Photoshop and Sketch.
-
-### Frontend Developer | Freelance
-
-- Dates: 06/2011 - 05/2012
-- Built dynamic and static websites, brochure sites, and marketing landing pages using HTML, CSS, JavaScript, jQuery, and PHP.
-- Implemented websites from client-provided Photoshop designs and produced client-facing design work in Photoshop.
 
 ## Projects
 
@@ -94,12 +83,7 @@ Experience includes architecture modernization, real-time communication features
 
 - Dates: 08/2023
 - Built a SwiftUI iOS testnet Bitcoin wallet prototype with wallet creation, balance sync, address generation, and transaction sending flows.
-- Used Electrum-based synchronization, Combine, CryptoKit-backed wallet logic, and Swift Package Manager in wallet loading, fee estimation, signing, and transaction broadcasting workflows.
-
-### TradingView Dashboard | Side Project
-
-- Dates: 07/2025 - Present
-- Built a Python and FastAPI service for market dashboards, reporting, and Telegram delivery, extending hands-on experience beyond mobile into backend-adjacent product development.
+- Used Electrum-based synchronization, Combine, CryptoKit-backed wallet logic, and Swift Package Manager to implement wallet loading, fee estimation, signing, and transaction broadcasting.
 
 ## Education
 
