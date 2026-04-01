@@ -14,6 +14,7 @@ This repository exists to store and organize resumes as Markdown documents.
 - When forming commit messages, follow the rules in `.gitlint`.
 - Store every resume at `resumes/<year>/<role>/<language>/<variant>/resume.md`.
 - Use `base` for the untargeted default variant and create separate variant folders for tailored versions.
+- When starting work on a new vacancy, create a dedicated PR named `Company + Role`.
 
 ## Preferred Local Skills
 

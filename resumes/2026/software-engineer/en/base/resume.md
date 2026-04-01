@@ -92,7 +92,7 @@ Brings a mobile-first engineering background with practical experience in Python
 ### Bitcoin Wallet | Side Project
 
 - Dates: 08/2023
-- Built a SwiftUI Bitcoin testnet wallet prototype using BitcoinDevKit, Electrum, Combine, and CryptoKit for wallet loading, balance sync, address generation, fee estimation, signing, and transaction broadcasting.
+- Built a SwiftUI Bitcoin testnet wallet prototype using Electrum, Combine, and CryptoKit for wallet loading, balance sync, address generation, fee estimation, signing, and transaction broadcasting.
 
 ## Education
 
