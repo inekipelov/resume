@@ -22,6 +22,7 @@ Experience includes architecture modernization, real-time communication features
 
 - Languages: Swift, Objective-C, C++, JavaScript
 - Apple Platforms and Frameworks: iOS, iPadOS, UIKit, SwiftUI, Core Data, SwiftData, Combine, Swift Concurrency, CoreGraphics, CoreBluetooth, ExternalAccessory, WebKit, JavaScriptCore, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, GCD
+- UI Design Patterns: MVC, MVC+Coordinator, MVP, MVVM, MVVM+Coordinator, MVx, UDF
 - Realtime and Integration: WebSockets, Socket.IO, VoIP/SIP, LiveKit, APNs, REST APIs, BLE, MFi
 - Quality and Delivery: XCTest, Swift Testing, Swift Package Manager, Firebase Crashlytics, Git, Gitflow, SVN, CI/CD
 - Adjacent Technologies: OpenCV, SQLite, Firebase API, Photoshop, Sketch, Figma

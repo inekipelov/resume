@@ -21,7 +21,8 @@ Experience includes secure authentication flows, backend-mobile collaboration ac
 ## Skills
 
 - Languages: Swift, Objective-C, C++, JavaScript
-- iOS Development: iOS, iPadOS, UIKit, SwiftUI, Combine, MVVM+C (Coordinator), Core Data, SwiftData, Swift Concurrency, CoreGraphics, AVFoundation
+- iOS Development: iOS, iPadOS, UIKit, SwiftUI, Combine, Core Data, SwiftData, Swift Concurrency, CoreGraphics, AVFoundation
+- UI Design Patterns: MVC, MVC+Coordinator, MVP, MVVM, MVVM+Coordinator, MVx, UDF
 - Security and Integration: CryptoKit, LocalAuthentication, Keychain Services, REST APIs, WebSockets, Socket.IO, APNs, backend-driven UI
 - Quality and Delivery: XCTest, Swift Testing, Swift Package Manager, Git, Gitflow, CI/CD, Firebase Crashlytics, App Store release workflows
 - UI and Collaboration: Figma, Sketch, Photoshop
