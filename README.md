@@ -13,6 +13,8 @@
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
 - 2026 Python Developer
+- 2026 Python Developer (EN, dZENcode Python/Django)
+- 2026 Python Developer (UKR, dZENcode Python/Django)
 - 2026 Software Engineer (EN, Work.ua 3671922)
 - 2026 Software Engineer (EN, Work.ua 7394323)
 - 2026 Software Engineer (EN, Work.ua 6033030)
