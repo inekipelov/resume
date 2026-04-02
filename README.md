@@ -8,18 +8,11 @@
 ## Current Resumes
 
 - 2026 iOS Developer (EN)
-- 2026 iOS Developer (EN, Djinni 816057)
 - 2026 iOS Developer (ES)
 - 2026 iOS Developer (UKR)
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
 - 2026 Python Developer
-- 2026 Python Developer (EN, dZENcode Python/Django)
-- 2026 Python Developer (UKR, dZENcode Python/Django)
-- 2026 Software Engineer (EN, Work.ua 3671922)
-- 2026 Software Engineer (EN, Work.ua 7394323)
-- 2026 Software Engineer (EN, Work.ua 6033030)
-- 2026 Software Engineer (EN, Work.ua 7804785)
 
 ## Overview
 
@@ -31,6 +24,6 @@
 
 ## PDF Export
 
-- Run `npm run build:resume-pdfs` to build PDFs from derived `resume.md` files.
+- Run `npm run build:resume-pdfs` to build PDFs only from canonical (`base`) derived resumes.
 - The `release` branch workflow can publish generated PDFs as versioned GitHub Releases.
 - Stable download links use GitHub's `releases/latest/download/...` endpoint.
