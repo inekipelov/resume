@@ -12,17 +12,18 @@
 - 2026 iOS Developer (UKR)
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
-- 2026 Software Engineer (EN, Work.ua 7394323)
+- 2026 Python Developer
 
 ## Overview
 
 - Canonical fact sources live in `contacts.md` and `experience.md`.
+- Canonical interview question bank lives in `interview-questions.md`.
 - Derived resumes live under `resumes/<year>/<role>/<language>/<variant>/resume.md`.
 - Derived resumes are the only inputs to the PDF export pipeline.
 - PDF exports are optional delivery artifacts and are not a source of truth.
 
 ## PDF Export
 
-- Run `npm run build:resume-pdfs` to build PDFs from derived `resume.md` files.
+- Run `npm run build:resume-pdfs` to build PDFs only from canonical (`base`) derived resumes.
 - The `release` branch workflow can publish generated PDFs as versioned GitHub Releases.
 - Stable download links use GitHub's `releases/latest/download/...` endpoint.
