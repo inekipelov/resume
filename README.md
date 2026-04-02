@@ -24,6 +24,7 @@
 ## Overview
 
 - Canonical fact sources live in `contacts.md` and `experience.md`.
+- Canonical interview question bank lives in `interview-questions.md`.
 - Derived resumes live under `resumes/<year>/<role>/<language>/<variant>/resume.md`.
 - Derived resumes are the only inputs to the PDF export pipeline.
 - PDF exports are optional delivery artifacts and are not a source of truth.
