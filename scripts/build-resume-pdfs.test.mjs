@@ -43,6 +43,33 @@ test("resolveSelectedEntries keeps only requested resume", () => {
   assert.deepEqual(filtered, [entries[1]]);
 });
 
+test("resolveSelectedEntries keeps only canonical entries by default", () => {
+  const entries = [
+    {
+      sourcePath: "resumes/2026/ios-developer/en/base/resume.md",
+      outputPdfName: "2026-ios-developer-en-base.pdf",
+      year: "2026",
+      role: "ios-developer",
+      lang: "en",
+      variant: "base",
+    },
+    {
+      sourcePath: "resumes/2026/ios-developer/en/djinni-816057/resume.md",
+      outputPdfName: "2026-ios-developer-en-djinni-816057.pdf",
+      year: "2026",
+      role: "ios-developer",
+      lang: "en",
+      variant: "djinni-816057",
+    },
+  ];
+
+  const filtered = pdfBuilder.resolveSelectedEntries(entries, {
+    resumePath: null,
+  });
+
+  assert.deepEqual(filtered, [entries[0]]);
+});
+
 test("resolveSelectedEntries throws for unknown resume path", () => {
   const entries = [
     {
