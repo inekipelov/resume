@@ -32,6 +32,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Introduced scalable architecture for messaging, calling, and real-time communication flows, stabilized execution, and resolved long-standing technical debt across the iOS codebase.
 - Delivered messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time unified communications workflows.
 - Built a macOS proof-of-concept application to validate PJSIP porting feasibility across Apple platform requirements.
+- Applied Objective-C runtime techniques and reverse engineering to investigate and stabilize critical behavior in an unstable third-party Objective-C framework.
 - Implemented AVFoundation-based audio session and media handling to support stable call and meeting experiences across iOS and iPadOS.
 - Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
 - Delivered push notification flows, configured and maintained APNs environments, and validated notification payloads.
@@ -72,6 +73,7 @@ Principal-level mobile-focused software engineer with deep iOS expertise, adjace
 - Dates: 05/2012 - 05/2020
 - Location: Cedar Park, Texas, United States - Remote
 - Worked across a portfolio of enterprise iOS and iPadOS products used in sales, inventory, browser, inspection, and utility workflows.
+- Used Objective-C runtime techniques to access undocumented behavior for R&D investigations and proof-of-concept implementations.
 - Worked with both SVN and Git across legacy and actively evolving product codebases, including local persistence workflows backed by SQLite.
 - Used Keychain Services in security-sensitive mobile flows across hardware-integrated iOS products.
 - Supported integrations across 16+ device and scanner families for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
