@@ -10,21 +10,22 @@ Python Developer
 
 - GitHub: https://github.com/inekipelov
 - LinkedIn: https://www.linkedin.com/in/inekipelov
+- App Store: https://apps.apple.com/us/developer/roman-nekipelov/id1841486819
 
 ## Professional Summary
 
-Python developer and software engineer with a product background in technically complex systems, real-time workflows, and API-driven services. Builds backend services focused on reliability, clear data contracts, and practical automation.
+Python developer focused on building async API services, reporting pipelines, and automation-oriented products around market data, webhook ingestion, scheduled delivery, and public-facing outputs. Strongest hands-on areas include FastAPI, asyncio, PostgreSQL, Redis, Playwright-based rendering, Telegram delivery workflows, and production-minded validation.
 
-Hands-on experience with FastAPI, asyncio, PostgreSQL, Redis, REST APIs, webhook ingestion, scheduled publishing workflows, and CI/CD. Also brings strong cross-platform engineering experience that helps align backend behavior with client applications and production delivery needs.
+Comes from a broader product engineering background in technically complex systems, which helps with API contract design, integration reliability, release discipline, and cross-functional execution. Prior commercial work was primarily mobile-focused, so this resume intentionally centers proven Python project work rather than overstating Python-only tenure.
 
 ## Skills
 
-- Languages: Python, Swift, Objective-C, C++, JavaScript, PHP, SQL
-- Backend and APIs: FastAPI, asyncio, REST APIs, WebSockets, Telegram API, Firebase API
+- Languages: Python, SQL, Swift, Objective-C, JavaScript, PHP
+- Backend and APIs: FastAPI, asyncio, REST APIs, WebSockets, Telegram API, Firebase API, OpenAI SDK, OpenRouter
 - Data and Storage: PostgreSQL, Redis, SQLite
-- Realtime and Integrations: Webhook pipelines, Socket.IO, APNs payload workflows
-- Quality and Delivery: Git, CI/CD, Docker, Playwright, XCTest, Swift Testing
-- Platforms and Frameworks: iOS, UIKit, SwiftUI, Core Data, SwiftData
+- Reporting and Automation: Webhook ingestion, scheduled publishing workflows, Markdown-to-image rendering with Playwright, notification pipelines
+- Quality and Delivery: PyTest, Git, CI/CD, Docker, VS Code
+- Adjacent Product Experience: iOS, SwiftUI, backend-mobile contract alignment, APNs payload workflows, realtime communication products
 
 ## Professional Experience
 
@@ -32,50 +33,51 @@ Hands-on experience with FastAPI, asyncio, PostgreSQL, Redis, REST APIs, webhook
 
 - Location: Hampshire, England, United Kingdom - Remote
 - Dates: 09/2023 - 05/2025
-- Worked across backend-mobile integration boundaries for messaging and calling systems using REST APIs and WebSocket flows.
+- Worked across backend-mobile integration boundaries for messaging and calling systems using REST APIs and WebSocket-based communication flows.
 - Supported push delivery reliability by maintaining APNs environments, validating payload contracts, and testing end-to-end notification behavior.
-- Improved release reliability through CI/CD-oriented validation and review practices in a communication-heavy product.
+- Improved delivery discipline through code review, CI/CD-oriented validation practices, and work toward stronger automated coverage in a communication-heavy product.
 
 ### Principal iOS Developer | VData Software-Entwicklung GmbH
 
 - Location: Munich, Bavaria, Germany - Remote
 - Dates: 06/2020 - 08/2023
-- Designed backend-driven UI architecture for 300+ dynamic screens, coordinating behavior with backend contracts and rollout controls.
-- Collaborated on payload design, release safety, and environment-level push integration across mobile and backend teams.
-- Led engineering process improvements focused on maintainability, consistency, and controlled delivery.
+- Designed backend-driven UI for more than 300 dynamic screens, which required tight coordination with backend contracts, rollout controls, and tenant-specific configuration.
+- Partnered with backend teams on payload design, release safety, and environment-level push integration across mobile and backend boundaries.
+- Led engineering process improvements focused on maintainability, consistency, and controlled delivery in a complex product environment.
 
 ### iOS Developer | Serialio.com
 
 - Location: Cedar Park, Texas, United States - Remote
 - Dates: 05/2012 - 05/2020
-- Worked on enterprise products where device integrations and cloud-connected workflows depended on stable data handling.
-- Contributed to browser-driven and sync-oriented workflows that required reliable transfer of structured data to downstream systems.
+- Worked on cloud-connected and integration-heavy products where reliable transfer of structured data mattered across devices, apps, and downstream systems.
+- Contributed to browser-driven, scanner-assisted, and sync-oriented workflows that depended on stable data handling and production reliability.
 
 ### Frontend Developer | Freelance
 
 - Dates: 06/2011 - 05/2012
-- Delivered client websites and landing pages with practical integration of frontend and server-side behavior.
+- Delivered websites and landing pages that combined frontend implementation with practical server-side behavior.
 
 ## Projects
 
 ### TradingView Dashboard | Side Project
 
 - Dates: 07/2025 - Present
-- Built a Python FastAPI and asyncio service for webhook ingestion, market-signal aggregation, and dashboard/report delivery.
-- Implemented data storage and caching with PostgreSQL and Redis for real-time snapshots and daily/weekly periods.
-- Delivered a public read-only API and report flow with scheduled Telegram publishing and CI/CD-backed updates.
-- Rendered Markdown report artifacts to PNG with Playwright and generated short highlights via OpenRouter.
+- Built a Python FastAPI and asyncio service for webhook ingestion, market-signal aggregation, and dashboard and report delivery.
+- Implemented data storage and caching with PostgreSQL and Redis for real-time snapshots and daily and weekly period data.
+- Exposed a public read-only report and API, plus scheduled Telegram market reports driven by structured publication workflows.
+- Rendered Markdown report artifacts to PNG with Playwright and generated short highlights via OpenRouter and OpenAI SDK integrations.
 
 ### TradingView Notifications | Side Project
 
 - Dates: 04/2025 - Present
 - Built a Python FastAPI and asyncio notification service that receives TradingView webhooks and publishes formatted Telegram updates.
-- Implemented payload validation, calendar-based buffering, timezone-aware scheduling, and persistent state using PostgreSQL and Redis.
+- Implemented payload validation, calendar-based buffering, timezone-aware scheduling, and persistent state with PostgreSQL and Redis.
+- Delivered chart links, Markdown-formatted messages, and CI/CD-backed update workflows for ongoing service evolution.
 
 ### TrackFinder | Side Project
 
 - Dates: 08/2025 - Present
-- Built and shipped an App Store product with API integration, share flows, and persisted lookup history.
+- Built and shipped an App Store product with API integration, share flows, and persisted lookup history, reinforcing product-level engineering discipline across client and service boundaries.
 
 ## Education
 
