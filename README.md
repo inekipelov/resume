@@ -7,6 +7,8 @@
 
 ## Current Resumes
 
+This list tracks the current default `base` resume variants. Tailored vacancy-specific variants under non-`base` folders are not enumerated here.
+
 - 2026 iOS Developer (EN)
 - 2026 iOS Developer (ES)
 - 2026 iOS Developer (UKR)
@@ -24,6 +26,7 @@
 
 ## PDF Export
 
-- Run `npm run build:resume-pdfs` to build PDFs only from canonical (`base`) derived resumes.
+- Run `npm run build:resume-pdfs` to build PDFs only from default `base` derived resumes.
+- Run `npm run build:resume-pdfs -- --resume resumes/<year>/<role>/<language>/<variant>/resume.md` to build a specific tailored variant.
 - The `release` branch workflow can publish generated PDFs as versioned GitHub Releases.
 - Stable download links use GitHub's `releases/latest/download/...` endpoint.

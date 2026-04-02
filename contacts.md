@@ -28,6 +28,13 @@
 - Preferred Work Mode: Remote
 - Tax Residency: Ukraine, Spain
 - Banned Niches: Adult, Gambling, Miltech, Spiritual/Esoteric
+- Technical Assignments: Acceptable
+- Compensation in Cryptocurrency: Acceptable
+- Ukraine Engagement Models: GIG contractor (Diia.City) or FOP Group 3
+- Spain Engagement Model: Employment contract
+- Time Tracking: Acceptable when based on tasks, estimates, and logged time
+- Time Tracking Restrictions: Not acceptable when tracking mouse movement or taking periodic screenshots
+- Privacy Note: Work device stores sensitive personal information; strict privacy and security boundaries are required for any monitoring setup
 - Resume Repository Contract: contact and profile facts are maintained here and in `experience.md`, then adapted into derived resumes under `resumes/**/resume.md`
 
 ## Compensation Expectations (Net)
