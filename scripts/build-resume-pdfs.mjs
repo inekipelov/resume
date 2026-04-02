@@ -139,7 +139,7 @@ function resolveOutputNames(parsedEntries) {
 
 export function resolveSelectedEntries(entries, options) {
   if (!options.resumePath) {
-    return entries;
+    return entries.filter((entry) => entry.variant === "base");
   }
 
   const requestedPath = toPosixPath(options.resumePath);
