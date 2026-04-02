@@ -15,6 +15,9 @@ from those derived resumes and published as GitHub Release assets.
 - Canonical facts are maintained in `contacts.md` and `experience.md`.
 - The generator scans all files matching `resumes/**/resume.md`.
 - Paths must follow `resumes/<year>/<role>/<lang>/<variant>/resume.md`.
+- All matching files are valid derived resumes, including tailored vacancy-specific variants.
+- In the default flow, only entries with `variant = base` are selected for PDF generation.
+- A non-`base` resume can be generated explicitly with `--resume <path>`.
 - Invalid paths fail the build with a clear error message.
 
 ## PDF Naming
@@ -36,7 +39,7 @@ from those derived resumes and published as GitHub Release assets.
 
 1. Push or merge resume changes into branch `release`.
 2. Workflow `.github/workflows/publish-resume-pdfs.yml` runs.
-3. CI generates PDFs from derived resumes into `dist/resume-pdfs/`.
+3. CI generates PDFs from default `base` derived resumes into `dist/resume-pdfs/`.
 4. If the legacy `resume-pdfs-latest` release still exists, CI deletes it once with tag cleanup.
 5. CI creates a new versioned release and uploads the current PDF assets.
 
