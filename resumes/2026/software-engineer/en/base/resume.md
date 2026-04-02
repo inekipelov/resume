@@ -14,18 +14,18 @@ Software Engineer
 
 ## Professional Summary
 
-Software engineer with primary depth in iOS and adjacent experience across backend-facing product work, real-time communication systems, API-driven workflows, and reporting services. Work has focused on turning complex product and integration requirements into maintainable architecture, reliable delivery, and stable user-facing systems.
+Software engineer with primary depth in mobile systems and adjacent experience across backend-facing product work, real-time communication, reporting services, workflow automation, and API-driven integrations. Works best at the boundary between product requirements and implementation detail, turning complex flows into maintainable architecture, clean contracts, and reliable delivery.
 
-Brings a mobile-first engineering background with practical experience in Python services, PostgreSQL, Redis, FastAPI, WebSockets, APNs integration, CI/CD, browser-based workflows, and hardware-connected products. Experience spans system boundaries where product quality depends on clean contracts, rollout safety, testing, and cross-functional execution.
+Brings a mobile-first foundation together with practical experience in Python services, FastAPI, asyncio, PostgreSQL, Redis, webhooks, WebSockets, APNs integration, Playwright-based report generation, and Telegram delivery flows. Comfortable in systems where quality depends on cross-functional coordination, rollout safety, testing discipline, and stable behavior across client and backend boundaries.
 
 ## Skills
 
-- Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS
-- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit
-- Backend and APIs: FastAPI, REST APIs, WebSockets, Socket.IO, PostgreSQL, Redis, SQL, Telegram API, Firebase API
-- Realtime and Integration: VoIP/SIP, LiveKit, APNs, BLE, MFi, ExternalAccessory, CoreBluetooth
-- Quality and Delivery: Git, Gitflow, SVN, CI/CD, XCTest, Swift Testing, Playwright, Docker, Firebase Crashlytics
-- Adjacent Technologies: OpenCV, backend-driven UI, OpenRouter
+- Languages: Swift, Objective-C, C++, Python, JavaScript, PHP, HTML, CSS, SQL
+- Client and Platform Engineering: iOS, iPadOS, UIKit, SwiftUI, WebKit, JavaScriptCore, Core Data, SwiftData, Vision, PhotoKit, ImageIO, CryptoKit, LocalAuthentication, Keychain Services, CallKit, PushKit, AVFoundation
+- Backend and Data: FastAPI, asyncio, REST APIs, WebSockets, Socket.IO, PostgreSQL, Redis, SQLite, Telegram API, Firebase API
+- Integration and Product Systems: VoIP/SIP, LiveKit, APNs, BLE, MFi, ExternalAccessory, CoreBluetooth, backend-driven UI
+- Quality and Delivery: Git, Gitflow, SVN, CI/CD, XCTest, Swift Testing, PyTest, Playwright, Docker, Swift Package Manager, Firebase Crashlytics
+- Adjacent Technologies: OpenCV, OpenRouter, OpenAI SDK, Figma, Sketch, Photoshop
 
 ## Professional Experience
 
@@ -33,56 +33,53 @@ Brings a mobile-first engineering background with practical experience in Python
 
 - Location: Hampshire, England, United Kingdom - Remote
 - Dates: 09/2023 - 05/2025
-- Rebuilt a product in reset phase by introducing scalable architecture, stabilizing execution, and resolving long-standing technical debt across a unified communications iOS codebase.
-- Delivered WebSocket-based messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and mobile call flows integrated with CallKit and PushKit for real-time communication workflows.
-- Implemented AVFoundation-based audio session and media handling to improve stability of call and meeting experiences on iOS and iPadOS.
-- Integrated Face ID and Touch ID using LocalAuthentication and used Keychain Services in authentication-sensitive mobile flows.
-- Supported backend-mobile integration across REST and WebSocket-based flows, including push notification delivery, APNs environment maintenance, payload validation, and end-to-end notification testing.
-- Implemented deep link routing for external URLs and notification-driven entry points to land users directly in relevant chat, call, and meeting screens.
-- Conducted code reviews, mentored engineers, and improved delivery reliability through testing and CI/CD-oriented validation practices.
-- Reduced the application size from 400 MB to 80 MB and helped move the product toward full automated test coverage, release stability, and fault-tolerant operation.
+- Rebuilt a product in reset phase by introducing scalable architecture, stabilizing execution, and reducing technical debt across a unified communications iOS codebase.
+- Delivered messaging, VoIP/SIP calling, LiveKit-powered video conferencing, and CallKit and PushKit-integrated call flows for real-time communication scenarios.
+- Supported backend-mobile integration across REST and WebSocket-based flows, including APNs environment maintenance, payload validation, end-to-end notification testing, and deep-link entry behavior.
+- Implemented AVFoundation-based media handling and authentication-sensitive mobile flows with LocalAuthentication and Keychain Services in production communication workflows.
+- Conducted code reviews, mentored engineers, and improved delivery reliability through stronger validation practices, CI/CD support, and work toward automated test coverage.
+- Reduced the application size from 400 MB to 80 MB while improving release stability and fault-tolerant operation.
 
 ### Principal iOS Developer | VData Software-Entwicklung GmbH
 
 - Location: Munich, Bavaria, Germany - Remote
 - Dates: 06/2020 - 08/2023
 - Served as lead architect and sole iOS owner for an insurance and employee-benefits SaaS product with 7 white-label client brands.
-- Designed and delivered backend-driven UI for more than 300 dynamically rendered screens and introduced feature flags for safer rollout control and tenant-specific configuration.
-- Implemented 2FA functionality for authentication-sensitive user flows using CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in support of mobile authentication methods and backend verification requirements.
-- Used AVFoundation in camera-driven workflows, including capture session integration and media pipeline support for document-focused mobile scenarios.
-- Partnered with backend teams on payload contracts, rollout safety, push notification payload design, APNs environment configuration, and end-to-end notification testing.
-- Developed reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant document recognition time to 0.1 seconds.
-- Conducted code reviews, led a 5-person mobile team, and helped keep implementation quality and consistency aligned across the product.
+- Designed and delivered backend-driven UI for more than 300 dynamically rendered screens, introduced feature flags for safer rollout control, and aligned mobile behavior with tenant-specific configuration.
+- Implemented secure authentication flows with CryptoKit, Face ID, Touch ID, LocalAuthentication, and Keychain Services in coordination with backend verification requirements.
+- Partnered with backend teams on payload contracts, push notification design, APNs configuration, rollout safety, and end-to-end notification testing.
+- Built reusable Vision, PhotoKit, ImageIO, C++, and OpenCV modules for document-capture workflows, including shared solutions used by Android development, reducing relevant recognition time to 0.1 seconds.
+- Led a 5-person mobile team, conducted code reviews, and maintained product quality, consistency, and delivery discipline across the product lifecycle.
 
 ### iOS Developer | Serialio.com
 
 - Location: Cedar Park, Texas, United States - Remote
 - Dates: 05/2012 - 05/2020
-- Worked across enterprise mobile products that connected mobile clients to hardware peripherals, browser-based workflows, cloud-backed systems, and offline field operations.
-- Used Keychain Services in security-sensitive mobile flows across hardware-integrated iOS products.
+- Worked across enterprise mobile products connecting client applications to hardware peripherals, browser-driven workflows, cloud-backed systems, and offline field operations.
 - Built and maintained reusable device-integration layers for WiSnap, MFi, BLE, barcode, RFID, and NFC workflows across multiple products.
-- Improved WebKit-based browser integration through iScanBrowser, including JavaScript-driven workflows and scan-to-field behavior for web applications.
+- Improved WebKit-based browser integration through iScanBrowser, including JavaScript-driven workflows and scan-to-field behavior for hardware-assisted web applications.
 - Worked with both SVN and Git across legacy and actively evolving codebases, including local persistence workflows backed by SQLite.
-- Contributed design assets for app icons, application visuals, and App Store marketing materials using Photoshop and Sketch.
+- Supported integrations across 16+ device and scanner families for customers including Apple, Google, Comic-Con, Facebook, General Mills, Kaiser Permanente, and Lockheed Martin.
+- Contributed design assets for app icons, product visuals, and App Store marketing materials using Photoshop and Sketch.
 
 ### Frontend Developer | Freelance
 
 - Dates: 06/2011 - 05/2012
-- Built dynamic and static websites, brochure sites, and marketing landing pages using HTML, CSS, JavaScript, jQuery, and PHP.
+- Built client websites, brochure sites, and landing pages using HTML, CSS, JavaScript, jQuery, and PHP.
 
 ## Projects
 
 ### TradingView Dashboard | Side Project
 
 - Dates: 07/2025 - Present
-- Built a Python and FastAPI reporting service that ingests TradingView webhooks, aggregates market signals, stores real-time and period data in PostgreSQL and Redis, and exposes a public read-only web report and API.
-- Rendered report artifacts from Markdown to PNG with Playwright, generated short highlights via OpenRouter, and delivered scheduled Telegram market reports through CI/CD-supported workflows.
+- Built a FastAPI and asyncio reporting service that ingests TradingView webhooks, aggregates market signals, stores real-time and period data in PostgreSQL and Redis, and exposes a public read-only web report and API.
+- Rendered report artifacts from Markdown to PNG with Playwright and generated short highlights through OpenRouter and OpenAI SDK integrations for scheduled Telegram delivery.
 
 ### TradingView Notifications | Side Project
 
 - Dates: 04/2025 - Present
 - Built a FastAPI service that receives TradingView webhook payloads, validates and buffers signals, and publishes formatted market notifications to Telegram.
-- Implemented timezone-aware scheduling, chart links, PostgreSQL and Redis-backed state handling, and CI/CD-supported delivery for service updates.
+- Implemented timezone-aware scheduling, chart links, and PostgreSQL and Redis-backed state handling for daily and weekly notification workflows.
 
 ### TrackFinder | Side Project
 
@@ -92,7 +89,7 @@ Brings a mobile-first engineering background with practical experience in Python
 ### Bitcoin Wallet | Side Project
 
 - Dates: 08/2023
-- Built a SwiftUI Bitcoin testnet wallet prototype using Electrum, Combine, and CryptoKit for wallet loading, balance sync, address generation, fee estimation, signing, and transaction broadcasting.
+- Built a SwiftUI Bitcoin testnet wallet prototype using Electrum, Combine, CryptoKit, and Swift Package Manager for wallet loading, balance sync, address generation, fee estimation, signing, and transaction broadcasting.
 
 ## Education
 
