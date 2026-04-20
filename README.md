@@ -7,7 +7,9 @@
 
 ## Current Resumes
 
-This list tracks the current default `base` resume variants. Tailored vacancy-specific variants under non-`base` folders are not enumerated here.
+This list tracks the current implemented resume variants in the repository.
+
+### Base Variants
 
 - 2026 iOS Developer (EN)
 - 2026 iOS Developer (ES)
@@ -15,6 +17,18 @@ This list tracks the current default `base` resume variants. Tailored vacancy-sp
 - 2026 Mobile Project Manager
 - 2026 Software Engineer
 - 2026 Python Developer
+
+### Tailored Variants
+
+- 2026 iOS Developer (EN) - Djinni 816057
+- 2026 iOS Developer (EN) - Sngular Mobile Developer (iOS)
+- 2026 Python Developer (EN) - DZencode Python Django
+- 2026 Python Developer (UKR) - DZencode Python Django
+- 2026 Software Engineer (EN) - MacPaw Senior Research Engineer (macOS)
+- 2026 Software Engineer (EN) - Work.ua 3671922
+- 2026 Software Engineer (EN) - Work.ua 6033030
+- 2026 Software Engineer (EN) - Work.ua 7394323
+- 2026 Software Engineer (EN) - Work.ua 7804785
 
 ## Overview
 
